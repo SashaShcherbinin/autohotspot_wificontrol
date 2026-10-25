@@ -1,25 +1,43 @@
 # WiFiControl
 
-An open-source helper that lets AutoHotspot enable and disable Wi-Fi. All source code is available in this repository. The helper requests Wi-Fi state permissions and does not request internet access.
+Open-source helper that lets [AutoHotspot](https://play.google.com/store/apps/details?id=com.wifi.auto.share) turn Wi-Fi on and off automatically. It has no internet permission.
 
-## Automatic switching
+## How it works
 
-AutoHotspot sends local requests to this helper when your configured Wi-Fi rules run. Keep WiFiControl installed; you do not need to keep its screen open. The buttons are for manual testing, and the screen displays the actual Wi-Fi state.
+1. AutoHotspot runs your rule, for example "turn off Wi-Fi when the hotspot starts".
+2. It calls WiFiControl's exported content provider on the device. No intents or broadcasts are used; the only intent filter is the launcher entry.
+3. WiFiControl calls Android's `WifiManager.setWifiEnabled()`.
 
-## Why it is not on Google Play
+Android 10+ blocks that call for apps targeting Android 10 or later, so WiFiControl targets Android 9 (API 28). That is also why it is not on Google Play and why Android may show an "older version" warning when installing.
 
-WiFiControl targets Android 9 (API 28) to retain Android's compatibility allowance for switching Wi-Fi. Apps targeting Android 10 or later cannot use this API as ordinary apps. Current Google Play target requirements prevent publishing this older-target helper as a normal app update.
+Keep it installed; its screen does not need to be open. The screen shows the current Wi-Fi state and has buttons for manual testing.
 
-## Why Android shows a warning
+### Provider interface
 
-Android may warn that WiFiControl was built for an older version and does not include the latest privacy protections. This is caused by its older target SDK, which is needed for Wi-Fi control. You can review the complete source code before deciding whether to install it.
+Authority: `com.wifi.auto.hotspot.wifi.control.provider` (package `wifi.auto.hotspot.wifi.control.provider.content`)
 
-## How to install
+- `update` on `content://com.wifi.auto.hotspot.wifi.control.provider` turns Wi-Fi on. It returns `1` if Android accepted the request and `0` if not.
+- `delete` on the same URI turns Wi-Fi off, with the same return values.
+- `query` on `content://com.wifi.auto.hotspot.wifi.control.provider/version` returns one row with `version_code` and `version_name`.
 
-1. Download [WiFiControl 1.1.3](https://github.com/SashaShcherbinin/autohotspot_wificontrol/releases/download/1.1.3/WiFiControl.1.1.3.apk).
-2. Open the downloaded APK on your Android phone.
-3. If Chrome shows an unknown-app installation message, select **Settings**, enable **Allow from this source**, and return to the installer.
-4. If Play Protect shows the older-Android compatibility warning, open **More details** if available. **Install anyway** is a small text link above the large **Got it** button. Select it only if you choose to continue.
-5. Finish installation and return to AutoHotspot to enable the Wi-Fi options.
+A returned `1` means Android accepted the request, not that Wi-Fi has finished switching; read the Wi-Fi state to confirm. On Android 11+ the calling app needs `<queries><package android:name="wifi.auto.hotspot.wifi.control.provider.content" /></queries>` in its manifest.
 
-Screens and available options vary by Android version and device manufacturer.
+Test from a computer with `adb`:
+
+```sh
+adb shell content delete --uri content://com.wifi.auto.hotspot.wifi.control.provider
+adb shell content update --uri content://com.wifi.auto.hotspot.wifi.control.provider --bind x:s:on
+adb shell content query --uri content://com.wifi.auto.hotspot.wifi.control.provider/version
+adb shell cmd wifi status
+```
+
+## Install
+
+1. Download [WiFiControl.apk](https://github.com/SashaShcherbinin/autohotspot_wificontrol/releases/latest/download/WiFiControl.apk) on your phone and open it.
+2. If Chrome asks, open **Settings** and enable **Allow from this source**.
+3. If Play Protect warns about an older Android version, tap **More details**, then **Install anyway**.
+4. Return to AutoHotspot and enable the Wi-Fi options.
+
+## Releases
+
+GitHub Actions builds the signed APK on every push to `main` and attaches `WiFiControl.apk` to the release when a version tag is pushed.
