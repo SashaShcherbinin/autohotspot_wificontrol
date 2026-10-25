@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="main_button_disable_wifi">Онемогућите ВиФи</string>
+    <string name="main_button_enable_wifi">Омогући ВиФи</string>
+    <string name="main_label_app_description">Ова апликација вам омогућава да омогућите и онемогућите ВиФи.</string>
+    <string name="main_label_compatibility_description">Садржи стару верзију компатибилности која омогућава рад са вифи-ом.</string>
+    <string name="main_label_github_description">Извор кода је доступан на ГитХуб-у, где преузимате апликацију.</string>
+</resources>

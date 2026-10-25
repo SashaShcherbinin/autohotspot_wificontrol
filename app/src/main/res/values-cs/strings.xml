@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="main_button_disable_wifi">Zakázat WiFi</string>
+    <string name="main_button_enable_wifi">Povolit WiFi</string>
+    <string name="main_label_app_description">Tato aplikace vám umožňuje povolit a zakázat WiFi.</string>
+    <string name="main_label_compatibility_description">Obsahuje starou verzi kompatibility, aby bylo možné pracovat s wifi.</string>
+    <string name="main_label_github_description">Zdroj kódu je k dispozici na GitHubu, odkud si aplikaci stáhnete.</string>
+</resources>

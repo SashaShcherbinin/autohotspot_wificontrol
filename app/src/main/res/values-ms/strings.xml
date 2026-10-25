@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="main_button_disable_wifi">Lumpuhkan WiFi</string>
+    <string name="main_button_enable_wifi">Dayakan WiFi</string>
+    <string name="main_label_app_description">Aplikasi ini membolehkan anda mendayakan dan melumpuhkan WiFi.</string>
+    <string name="main_label_compatibility_description">Ia mengandungi versi keserasian lama untuk membolehkan ia berfungsi dengan wifi.</string>
+    <string name="main_label_github_description">Sumber kod tersedia di GitHub, tempat anda memuat turun aplikasi.</string>
+</resources>

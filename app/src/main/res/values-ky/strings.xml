@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="main_button_disable_wifi">WiFi өчүрүү</string>
+    <string name="main_button_enable_wifi">WiFi иштетүү</string>
+    <string name="main_label_app_description">Бул колдонмо сиз WiFi иштетүү жана өчүрүү мүмкүнчүлүгүн берет.</string>
+    <string name="main_label_compatibility_description">Ал Wi-Fi менен иштөөгө мүмкүндүк берүү үчүн эски шайкештик версиясын камтыйт.</string>
+    <string name="main_label_github_description">Код булагы GitHub сайтында жеткиликтүү, анда сиз колдонмону жүктөп аласыз.</string>
+</resources>

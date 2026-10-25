@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="main_button_disable_wifi">Tắt Wi-Fi</string>
+    <string name="main_button_enable_wifi">Bật Wi-Fi</string>
+    <string name="main_label_app_description">Ứng dụng này cho phép bạn bật và tắt WiFi.</string>
+    <string name="main_label_compatibility_description">Nó chứa một phiên bản tương thích cũ để có thể hoạt động với wifi.</string>
+    <string name="main_label_github_description">Nguồn mã có sẵn trên GitHub, nơi bạn tải xuống ứng dụng.</string>
+</resources>

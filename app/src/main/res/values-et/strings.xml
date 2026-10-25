@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="main_button_disable_wifi">Keela WiFi</string>
+    <string name="main_button_enable_wifi">Luba WiFi</string>
+    <string name="main_label_app_description">See rakendus võimaldab teil WiFi lubada ja keelata.</string>
+    <string name="main_label_compatibility_description">See sisaldab vana ühilduvusversiooni, mis võimaldab töötada wifiga.</string>
+    <string name="main_label_github_description">Koodi allikas on saadaval GitHubis, kust saate rakenduse alla laadida.</string>
+</resources>

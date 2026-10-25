@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="main_button_disable_wifi">Wyłącz Wi-Fi</string>
+    <string name="main_button_enable_wifi">Włącz Wi-Fi</string>
+    <string name="main_label_app_description">Ta aplikacja umożliwia włączanie i wyłączanie Wi-Fi.</string>
+    <string name="main_label_compatibility_description">Zawiera starą wersję kompatybilności, która umożliwia pracę z Wi-Fi.</string>
+    <string name="main_label_github_description">Źródło kodu jest dostępne w serwisie GitHub, skąd można pobrać aplikację.</string>
+</resources>

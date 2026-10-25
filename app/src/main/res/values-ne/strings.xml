@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="main_button_disable_wifi">WiFi असक्षम गर्नुहोस्</string>
+    <string name="main_button_enable_wifi">WiFi सक्षम गर्नुहोस्</string>
+    <string name="main_label_app_description">यो एपले तपाईंलाई WiFi सक्षम र असक्षम गर्न अनुमति दिन्छ।</string>
+    <string name="main_label_compatibility_description">यसले वाइफाइसँग काम गर्न सम्भव बनाउनको लागि पुरानो अनुकूलता संस्करण समावेश गर्दछ।</string>
+    <string name="main_label_github_description">कोड स्रोत GitHub मा उपलब्ध छ, जहाँ तपाइँ एप डाउनलोड गर्नुहुन्छ।</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="main_button_disable_wifi">გამორთეთ WiFi</string>
+    <string name="main_button_enable_wifi">ჩართეთ WiFi</string>
+    <string name="main_label_app_description">ეს აპლიკაცია საშუალებას გაძლევთ ჩართოთ და გამორთოთ WiFi.</string>
+    <string name="main_label_compatibility_description">ის შეიცავს ძველ თავსებადობის ვერსიას, რომელიც შესაძლებელს გახდის wifi-სთან მუშაობას.</string>
+    <string name="main_label_github_description">კოდის წყარო ხელმისაწვდომია GitHub-ზე, სადაც ჩამოტვირთავთ აპს.</string>
+</resources>

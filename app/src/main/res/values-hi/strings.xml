@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="main_button_disable_wifi">वाई-फाई अक्षम करें</string>
+    <string name="main_button_enable_wifi">वाईफ़ाई सक्षम करें</string>
+    <string name="main_label_app_description">यह ऐप आपको वाई-फाई को सक्षम और अक्षम करने की अनुमति देता है।</string>
+    <string name="main_label_compatibility_description">इसमें वाईफाई के साथ काम करना संभव बनाने के लिए एक पुराना संगतता संस्करण शामिल है।</string>
+    <string name="main_label_github_description">कोड स्रोत GitHub पर उपलब्ध है, जहां से आप ऐप डाउनलोड कर सकते हैं।</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="main_button_disable_wifi">Dezactivează WiFi</string>
+    <string name="main_button_enable_wifi">Activați WiFi</string>
+    <string name="main_label_app_description">Această aplicație vă permite să activați și să dezactivați WiFi.</string>
+    <string name="main_label_compatibility_description">Conține o versiune veche de compatibilitate pentru a face posibilă lucrarea cu wifi.</string>
+    <string name="main_label_github_description">Sursa de cod este disponibilă pe GitHub, de unde descărcați aplicația.</string>
+</resources>

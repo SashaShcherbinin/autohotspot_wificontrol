@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="main_button_disable_wifi">停用 WiFi</string>
+    <string name="main_button_enable_wifi">啟用無線網路</string>
+    <string name="main_label_app_description">該應用程式允許您啟用和停用 WiFi。</string>
+    <string name="main_label_compatibility_description">它包含一個舊的兼容版本，可以使用 wifi。</string>
+    <string name="main_label_github_description">程式碼來源可在 GitHub 上找到，您可以在其中下載該應用程式。</string>
+</resources>

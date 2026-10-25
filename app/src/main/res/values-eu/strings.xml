@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="main_button_disable_wifi">Desgaitu WiFi</string>
+    <string name="main_button_enable_wifi">Gaitu WiFi</string>
+    <string name="main_label_app_description">Aplikazio honek WiFi gaitu eta desgaitu dezakezu.</string>
+    <string name="main_label_compatibility_description">Bateragarritasun bertsio zahar bat dauka wifiarekin lan egin ahal izateko.</string>
+    <string name="main_label_github_description">Kode-iturria GitHub-en dago eskuragarri, aplikazioa deskargatzen duzun tokian.</string>
+</resources>

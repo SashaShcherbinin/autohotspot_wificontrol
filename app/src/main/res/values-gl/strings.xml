@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="main_button_disable_wifi">Desactivar WiFi</string>
+    <string name="main_button_enable_wifi">Activar WiFi</string>
+    <string name="main_label_app_description">Esta aplicación permítelle activar e desactivar WiFi.</string>
+    <string name="main_label_compatibility_description">Contén unha versión antiga de compatibilidade para facer posible traballar con wifi.</string>
+    <string name="main_label_github_description">A fonte do código está dispoñible en GitHub, onde descargas a aplicación.</string>
+</resources>
