@@ -5,4 +5,19 @@
     <string name="main_label_app_description">Ky aplikacion ju lejon të aktivizoni dhe çaktivizoni WiFi.</string>
     <string name="main_label_compatibility_description">Ai përmban një version të vjetër të pajtueshmërisë për të bërë të mundur punën me wifi.</string>
     <string name="main_label_github_description">Burimi i kodit është i disponueshëm në GitHub, ku shkarkoni aplikacionin.</string>
+    <string name="main_title_automatic">Wi-Fi automatik me AutoHotspot</string>
+    <string name="main_body_automatic">AutoHotspot i dërgon kërkesa lokale këtij aplikacioni ndihmës për të ndezur ose fikur Wi-Fi kur ekzekutohen rregullat që ke konfiguruar. Mbaje WiFiControl të instaluar. Nuk ke nevojë ta mbash këtë ekran të hapur.</string>
+    <string name="main_title_manual">Testo Wi-Fi manualisht</string>
+    <string name="main_body_manual">Përdor këta butona për të kontrolluar nëse Android i lejon këtij aplikacioni ndihmës të ndërrojë Wi-Fi. Ndërrimi automatik konfigurohet në AutoHotspot.</string>
+    <string name="main_title_compatibility">Pse Android shfaq një paralajmërim</string>
+    <string name="main_body_compatibility">Ky aplikacion ndihmës përdor një objektiv më të vjetër përputhshmërie të Android për të ndërruar Wi-Fi. Kjo mund ta bëjë Android të shfaqë paralajmërim për aplikacion të vjetër.</string>
+    <string name="main_title_transparency">Burim i hapur dhe lokal</string>
+    <string name="main_body_transparency">Kërkesat për kontrollin e Wi-Fi përpunohen në pajisjen tënde. WiFiControl nuk kërkon qasje në internet. I gjithë kodi burimor është publik në GitHub që ta shqyrtosh.</string>
+    <string name="main_button_source">Shqyrto kodin burimor në GitHub</string>
+    <string name="main_status_enabled">Wi-Fi është ndezur</string>
+    <string name="main_status_disabled">Wi-Fi është fikur</string>
+    <string name="main_status_changing">Po ndërrohet Wi-Fi…</string>
+    <string name="main_error_change_rejected">Android nuk mundi ta ndërrojë Wi-Fi tani.</string>
+    <string name="main_error_open_source">Nuk ka aplikacion të disponueshëm për të hapur GitHub.</string>
+    <string name="main_version">Versioni: %1$s (%2$d)</string>
 </resources>

@@ -5,4 +5,19 @@
     <string name="main_label_app_description">ეს აპლიკაცია საშუალებას გაძლევთ ჩართოთ და გამორთოთ WiFi.</string>
     <string name="main_label_compatibility_description">ის შეიცავს ძველ თავსებადობის ვერსიას, რომელიც შესაძლებელს გახდის wifi-სთან მუშაობას.</string>
     <string name="main_label_github_description">კოდის წყარო ხელმისაწვდომია GitHub-ზე, სადაც ჩამოტვირთავთ აპს.</string>
+    <string name="main_title_automatic">ავტომატური Wi-Fi AutoHotspot-ით</string>
+    <string name="main_body_automatic">როცა თქვენ მიერ დაყენებული წესები ეშვება, AutoHotspot ამ დამხმარე აპს ლოკალურ მოთხოვნებს უგზავნის Wi-Fi-ის ჩასართავად ან გამოსართავად. დატოვეთ WiFiControl დაინსტალირებული. ამ ეკრანის ღიად დატოვება საჭირო არ არის.</string>
+    <string name="main_title_manual">Wi-Fi-ის ხელით შემოწმება</string>
+    <string name="main_body_manual">ამ ღილაკებით შეამოწმეთ, აძლევს თუ არა Android ამ დამხმარე აპს Wi-Fi-ის გადართვის უფლებას. ავტომატური გადართვა AutoHotspot-ში ყენდება.</string>
+    <string name="main_title_compatibility">რატომ აჩვენებს Android გაფრთხილებას</string>
+    <string name="main_body_compatibility">ეს დამხმარე აპი Wi-Fi-ის გადასართავად Android-ის უფრო ძველ თავსებადობის სამიზნეს იყენებს. ამის გამო Android შეიძლება ძველი აპის გაფრთხილებას აჩვენებდეს.</string>
+    <string name="main_title_transparency">ღია კოდი და ლოკალური მუშაობა</string>
+    <string name="main_body_transparency">Wi-Fi-ის მართვის მოთხოვნები თქვენს მოწყობილობაზე მუშავდება. WiFiControl ინტერნეტზე წვდომას არ ითხოვს. მთელი საწყისი კოდი საჯაროა GitHub-ზე, რომ გადახედოთ.</string>
+    <string name="main_button_source">საწყისი კოდის ნახვა GitHub-ზე</string>
+    <string name="main_status_enabled">Wi-Fi ჩართულია</string>
+    <string name="main_status_disabled">Wi-Fi გამორთულია</string>
+    <string name="main_status_changing">Wi-Fi იცვლება…</string>
+    <string name="main_error_change_rejected">Android-მა ამჟამად ვერ შეცვალა Wi-Fi.</string>
+    <string name="main_error_open_source">GitHub-ის გასახსნელი აპი ხელმისაწვდომი არ არის.</string>
+    <string name="main_version">ვერსია: %1$s (%2$d)</string>
 </resources>

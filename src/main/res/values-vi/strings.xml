@@ -5,4 +5,19 @@
     <string name="main_label_app_description">Ứng dụng này cho phép bạn bật và tắt WiFi.</string>
     <string name="main_label_compatibility_description">Nó chứa một phiên bản tương thích cũ để có thể hoạt động với wifi.</string>
     <string name="main_label_github_description">Nguồn mã có sẵn trên GitHub, nơi bạn tải xuống ứng dụng.</string>
+    <string name="main_title_automatic">Wi-Fi tự động với AutoHotspot</string>
+    <string name="main_body_automatic">Khi các quy tắc bạn đã thiết lập chạy, AutoHotspot gửi yêu cầu cục bộ đến ứng dụng trợ giúp này để bật hoặc tắt Wi-Fi. Hãy giữ WiFiControl được cài đặt. Bạn không cần để màn hình này mở.</string>
+    <string name="main_title_manual">Kiểm tra Wi-Fi thủ công</string>
+    <string name="main_body_manual">Dùng các nút này để kiểm tra xem Android có cho phép ứng dụng trợ giúp này chuyển đổi Wi-Fi hay không. Việc chuyển đổi tự động được thiết lập trong AutoHotspot.</string>
+    <string name="main_title_compatibility">Tại sao Android hiển thị cảnh báo</string>
+    <string name="main_body_compatibility">Ứng dụng trợ giúp này dùng mục tiêu tương thích Android cũ hơn để chuyển đổi Wi-Fi. Điều đó có thể khiến Android hiển thị cảnh báo ứng dụng cũ.</string>
+    <string name="main_title_transparency">Mã nguồn mở và chạy cục bộ</string>
+    <string name="main_body_transparency">Các yêu cầu điều khiển Wi-Fi được xử lý trên thiết bị của bạn. WiFiControl không yêu cầu quyền truy cập internet. Toàn bộ mã nguồn được công khai trên GitHub để bạn xem xét.</string>
+    <string name="main_button_source">Xem mã nguồn trên GitHub</string>
+    <string name="main_status_enabled">Wi-Fi đang bật</string>
+    <string name="main_status_disabled">Wi-Fi đang tắt</string>
+    <string name="main_status_changing">Đang chuyển đổi Wi-Fi…</string>
+    <string name="main_error_change_rejected">Android hiện không thể thay đổi Wi-Fi.</string>
+    <string name="main_error_open_source">Không có ứng dụng nào để mở GitHub.</string>
+    <string name="main_version">Phiên bản: %1$s (%2$d)</string>
 </resources>

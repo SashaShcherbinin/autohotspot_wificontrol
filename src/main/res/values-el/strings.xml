@@ -5,4 +5,19 @@
     <string name="main_label_app_description">Αυτή η εφαρμογή σάς επιτρέπει να ενεργοποιήσετε και να απενεργοποιήσετε το WiFi.</string>
     <string name="main_label_compatibility_description">Περιέχει μια παλιά έκδοση συμβατότητας για να είναι δυνατή η εργασία με wifi.</string>
     <string name="main_label_github_description">Η πηγή κώδικα είναι διαθέσιμη στο GitHub, από όπου κάνετε λήψη της εφαρμογής.</string>
+    <string name="main_title_automatic">Αυτόματο Wi-Fi με το AutoHotspot</string>
+    <string name="main_body_automatic">Το AutoHotspot στέλνει τοπικά αιτήματα σε αυτή τη βοηθητική εφαρμογή για να ενεργοποιεί ή να απενεργοποιεί το Wi-Fi όταν εκτελούνται οι κανόνες που ορίσατε. Διατηρήστε το WiFiControl εγκατεστημένο. Δεν χρειάζεται να κρατάτε αυτή την οθόνη ανοιχτή.</string>
+    <string name="main_title_manual">Χειροκίνητη δοκιμή Wi-Fi</string>
+    <string name="main_body_manual">Χρησιμοποιήστε αυτά τα κουμπιά για να ελέγξετε ότι το Android επιτρέπει σε αυτή τη βοηθητική εφαρμογή να αλλάζει το Wi-Fi. Η αυτόματη εναλλαγή ρυθμίζεται στο AutoHotspot.</string>
+    <string name="main_title_compatibility">Γιατί το Android εμφανίζει προειδοποίηση</string>
+    <string name="main_body_compatibility">Αυτή η βοηθητική εφαρμογή χρησιμοποιεί παλαιότερο στόχο συμβατότητας Android για να αλλάζει το Wi-Fi. Αυτός ο στόχος μπορεί να κάνει το Android να εμφανίσει προειδοποίηση για παλαιότερη εφαρμογή.</string>
+    <string name="main_title_transparency">Ανοιχτός κώδικας και τοπική λειτουργία</string>
+    <string name="main_body_transparency">Τα αιτήματα ελέγχου Wi-Fi εκτελούνται στη συσκευή σας. Το WiFiControl δεν ζητά πρόσβαση στο διαδίκτυο. Όλος ο πηγαίος κώδικας είναι δημόσιος στο GitHub για να τον ελέγξετε.</string>
+    <string name="main_button_source">Έλεγχος πηγαίου κώδικα στο GitHub</string>
+    <string name="main_status_enabled">Το Wi-Fi είναι ενεργό</string>
+    <string name="main_status_disabled">Το Wi-Fi είναι ανενεργό</string>
+    <string name="main_status_changing">Αλλαγή Wi-Fi…</string>
+    <string name="main_error_change_rejected">Το Android δεν μπόρεσε να αλλάξει το Wi-Fi αυτή τη στιγμή.</string>
+    <string name="main_error_open_source">Δεν υπάρχει διαθέσιμη εφαρμογή για άνοιγμα του GitHub.</string>
+    <string name="main_version">Έκδοση: %1$s (%2$d)</string>
 </resources>

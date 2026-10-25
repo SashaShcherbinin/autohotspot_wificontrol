@@ -5,4 +5,19 @@
     <string name="main_label_app_description">Tämän sovelluksen avulla voit ottaa WiFi käyttöön ja poistaa sen käytöstä.</string>
     <string name="main_label_compatibility_description">Se sisältää vanhan yhteensopivuusversion, joka mahdollistaa työskentelyn wifin kanssa.</string>
     <string name="main_label_github_description">Koodilähde on saatavilla GitHubista, josta lataat sovelluksen.</string>
+    <string name="main_title_automatic">Automaattinen Wi-Fi AutoHotspotilla</string>
+    <string name="main_body_automatic">AutoHotspot lähettää tälle apusovellukselle paikallisia pyyntöjä Wi-Fin kytkemiseksi päälle tai pois, kun määrittämäsi säännöt suoritetaan. Pidä WiFiControl asennettuna. Tätä näyttöä ei tarvitse pitää auki.</string>
+    <string name="main_title_manual">Testaa Wi-Fi käsin</string>
+    <string name="main_body_manual">Näillä painikkeilla voit tarkistaa, salliiko Android tämän apusovelluksen vaihtaa Wi-Fin tilaa. Automaattinen vaihto määritetään AutoHotspotissa.</string>
+    <string name="main_title_compatibility">Miksi Android näyttää varoituksen</string>
+    <string name="main_body_compatibility">Tämä apusovellus käyttää Wi-Fin vaihtamiseen vanhempaa Androidin yhteensopivuustasoa. Sen vuoksi Android voi näyttää varoituksen vanhemmasta sovelluksesta.</string>
+    <string name="main_title_transparency">Avointa lähdekoodia ja paikallinen</string>
+    <string name="main_body_transparency">Wi-Fin ohjauspyynnöt käsitellään laitteellasi. WiFiControl ei pyydä internet-yhteyttä. Kaikki lähdekoodi on julkisesti GitHubissa tarkistettavanasi.</string>
+    <string name="main_button_source">Tarkastele lähdekoodia GitHubissa</string>
+    <string name="main_status_enabled">Wi-Fi on päällä</string>
+    <string name="main_status_disabled">Wi-Fi on pois päältä</string>
+    <string name="main_status_changing">Vaihdetaan Wi-Fiä…</string>
+    <string name="main_error_change_rejected">Android ei voinut muuttaa Wi-Fiä juuri nyt.</string>
+    <string name="main_error_open_source">GitHubin avaamiseen ei ole sovellusta.</string>
+    <string name="main_version">Versio: %1$s (%2$d)</string>
 </resources>

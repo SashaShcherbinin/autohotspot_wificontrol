@@ -5,4 +5,19 @@
     <string name="main_label_app_description">Dës App erlaabt Iech WiFi z’aktivéieren an auszeschalten.</string>
     <string name="main_label_compatibility_description">Et enthält eng al Kompatibilitéitsversioun fir et méiglech ze maachen mat Wifi ze schaffen.</string>
     <string name="main_label_github_description">De Codequell ass verfügbar op GitHub, wou Dir d’App eroflueden.</string>
+    <string name="main_title_automatic">Automatesche WLAN mat AutoHotspot</string>
+    <string name="main_body_automatic">AutoHotspot schéckt lokal Ufroen un dës Hëllefsapp, fir WLAN an- oder auszeschalten, wann är agestallte Reegele lafen. Loosst WiFiControl installéiert. Dësen Ecran muss net op bleiwen.</string>
+    <string name="main_title_manual">WLAN manuell testen</string>
+    <string name="main_body_manual">Benotzt dës Knäppercher, fir ze kontrolléieren, ob Android dëser Hëllefsapp erlaabt, de WLAN ëmzeschalten. Dat automatescht Ëmschalten gëtt an AutoHotspot agestallt.</string>
+    <string name="main_title_compatibility">Firwat Android eng Warnung weist</string>
+    <string name="main_body_compatibility">Dës Hëllefsapp benotzt e méi alen Android-Kompatibilitéitsziel, fir de WLAN ëmzeschalten. Doduerch kann Android eng Warnung iwwer eng méi al App weisen.</string>
+    <string name="main_title_transparency">Open Source a lokal</string>
+    <string name="main_body_transparency">WLAN-Steierungsufroe ginn op ärem Apparat veraarbecht. WiFiControl freet keen Internetzougang un. De ganze Quellcode ass ëffentlech op GitHub, fir datt dir en iwwerpréiwe kënnt.</string>
+    <string name="main_button_source">Quellcode op GitHub ukucken</string>
+    <string name="main_status_enabled">WLAN ass un</string>
+    <string name="main_status_disabled">WLAN ass aus</string>
+    <string name="main_status_changing">WLAN gëtt ëmgeschalt…</string>
+    <string name="main_error_change_rejected">Android konnt de WLAN elo net änneren.</string>
+    <string name="main_error_open_source">Keng App verfügbar, fir GitHub opzemaachen.</string>
+    <string name="main_version">Versioun: %1$s (%2$d)</string>
 </resources>

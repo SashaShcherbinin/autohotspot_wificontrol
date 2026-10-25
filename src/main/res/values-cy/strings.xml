@@ -5,4 +5,19 @@
     <string name="main_label_app_description">Mae’r ap hwn yn caniatáu ichi alluogi ac analluogi WiFi.</string>
     <string name="main_label_compatibility_description">Mae’n cynnwys hen fersiwn cydnawsedd i’w gwneud hi’n bosibl gweithio gyda wifi.</string>
     <string name="main_label_github_description">Mae ffynhonnell y cod ar gael ar GitHub, lle rydych chi’n lawrlwytho’r app.</string>
+    <string name="main_title_automatic">Wi-Fi awtomatig gydag AutoHotspot</string>
+    <string name="main_body_automatic">Mae AutoHotspot yn anfon ceisiadau lleol at yr ap cymorth hwn i droi Wi-Fi ymlaen neu i ffwrdd pan fydd y rheolau rydych wedi\'u gosod yn rhedeg. Cadwch WiFiControl wedi\'i osod. Does dim angen cadw\'r sgrin hon ar agor.</string>
+    <string name="main_title_manual">Profi Wi-Fi â llaw</string>
+    <string name="main_body_manual">Defnyddiwch y botymau hyn i wirio bod Android yn caniatáu i\'r ap cymorth hwn newid Wi-Fi. Caiff newid awtomatig ei osod yn AutoHotspot.</string>
+    <string name="main_title_compatibility">Pam mae Android yn dangos rhybudd</string>
+    <string name="main_body_compatibility">Mae\'r ap cymorth hwn yn defnyddio targed cydnawsedd Android hŷn i newid Wi-Fi. Gall y targed hwnnw achosi i Android ddangos rhybudd am ap hŷn.</string>
+    <string name="main_title_transparency">Cod agored a lleol</string>
+    <string name="main_body_transparency">Caiff ceisiadau rheoli Wi-Fi eu trin ar eich dyfais. Nid yw WiFiControl yn gofyn am fynediad i\'r rhyngrwyd. Mae\'r holl god ffynhonnell yn gyhoeddus ar GitHub i chi ei adolygu.</string>
+    <string name="main_button_source">Adolygu\'r cod ffynhonnell ar GitHub</string>
+    <string name="main_status_enabled">Mae Wi-Fi ymlaen</string>
+    <string name="main_status_disabled">Mae Wi-Fi i ffwrdd</string>
+    <string name="main_status_changing">Wrthi\'n newid Wi-Fi…</string>
+    <string name="main_error_change_rejected">Doedd Android ddim yn gallu newid Wi-Fi ar hyn o bryd.</string>
+    <string name="main_error_open_source">Does dim ap ar gael i agor GitHub.</string>
+    <string name="main_version">Fersiwn: %1$s (%2$d)</string>
 </resources>

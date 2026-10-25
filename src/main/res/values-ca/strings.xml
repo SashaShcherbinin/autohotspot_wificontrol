@@ -5,4 +5,19 @@
     <string name="main_label_app_description">Aquesta aplicació us permet activar i desactivar WiFi.</string>
     <string name="main_label_compatibility_description">Conté una versió de compatibilitat antiga per fer possible treballar amb wifi.</string>
     <string name="main_label_github_description">La font del codi està disponible a GitHub, des d’on descarregueu l’aplicació.</string>
+    <string name="main_title_automatic">Wi-Fi automàtica amb AutoHotspot</string>
+    <string name="main_body_automatic">AutoHotspot envia sol·licituds locals a aquest assistent per activar o desactivar la Wi-Fi quan s\'executen les regles que has configurat. Mantén WiFiControl instal·lat. No cal que mantinguis aquesta pantalla oberta.</string>
+    <string name="main_title_manual">Prova la Wi-Fi manualment</string>
+    <string name="main_body_manual">Fes servir aquests botons per comprovar que Android permet a aquest assistent canviar la Wi-Fi. El canvi automàtic es configura a AutoHotspot.</string>
+    <string name="main_title_compatibility">Per què Android mostra un avís</string>
+    <string name="main_body_compatibility">Aquest assistent utilitza un objectiu de compatibilitat d\'Android més antic per canviar la Wi-Fi. Aquest objectiu pot fer que Android mostri un avís d\'aplicació antiga.</string>
+    <string name="main_title_transparency">Codi obert i local</string>
+    <string name="main_body_transparency">Les sol·licituds de control de la Wi-Fi es gestionen al teu dispositiu. WiFiControl no demana accés a internet. Tot el codi font és públic a GitHub perquè el puguis revisar.</string>
+    <string name="main_button_source">Revisa el codi font a GitHub</string>
+    <string name="main_status_enabled">La Wi-Fi està activada</string>
+    <string name="main_status_disabled">La Wi-Fi està desactivada</string>
+    <string name="main_status_changing">S\'està canviant la Wi-Fi…</string>
+    <string name="main_error_change_rejected">Android no ha pogut canviar la Wi-Fi ara mateix.</string>
+    <string name="main_error_open_source">No hi ha cap aplicació per obrir GitHub.</string>
+    <string name="main_version">Versió: %1$s (%2$d)</string>
 </resources>

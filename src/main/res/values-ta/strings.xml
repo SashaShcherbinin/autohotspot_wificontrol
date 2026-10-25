@@ -5,4 +5,19 @@
     <string name="main_label_app_description">வைஃபையை இயக்கவும் முடக்கவும் இந்தப் பயன்பாடு உங்களை அனுமதிக்கிறது.</string>
     <string name="main_label_compatibility_description">வைஃபை உடன் வேலை செய்வதை சாத்தியமாக்கும் பழைய இணக்கத்தன்மை பதிப்பு இதில் உள்ளது.</string>
     <string name="main_label_github_description">நீங்கள் பயன்பாட்டைப் பதிவிறக்கும் GitHub இல் குறியீட்டு ஆதாரம் கிடைக்கிறது.</string>
+    <string name="main_title_automatic">AutoHotspot உடன் தானியங்கி Wi-Fi</string>
+    <string name="main_body_automatic">நீங்கள் அமைத்த விதிகள் இயங்கும்போது, Wi-Fi-ஐ இயக்க அல்லது அணைக்க AutoHotspot இந்த உதவி ஆப்ஸுக்கு உள்ளூர் கோரிக்கைகளை அனுப்பும். WiFiControl-ஐ நிறுவியபடியே வைத்திருங்கள். இந்தத் திரையைத் திறந்து வைத்திருக்க வேண்டியதில்லை.</string>
+    <string name="main_title_manual">Wi-Fi-ஐ நேரடியாகச் சோதிக்கவும்</string>
+    <string name="main_body_manual">இந்த உதவி ஆப்ஸ் Wi-Fi-ஐ மாற்ற Android அனுமதிக்கிறதா என்பதை இந்தப் பட்டன்களால் சரிபார்க்கவும். தானியங்கி மாற்றம் AutoHotspot-இல் அமைக்கப்படும்.</string>
+    <string name="main_title_compatibility">Android ஏன் எச்சரிக்கை காட்டுகிறது</string>
+    <string name="main_body_compatibility">Wi-Fi-ஐ மாற்ற இந்த உதவி ஆப்ஸ் பழைய Android இணக்க இலக்கைப் பயன்படுத்துகிறது. அதனால் Android பழைய ஆப்ஸ் எச்சரிக்கையைக் காட்டலாம்.</string>
+    <string name="main_title_transparency">திறந்த மூலம், சாதனத்திலேயே</string>
+    <string name="main_body_transparency">Wi-Fi கட்டுப்பாட்டுக் கோரிக்கைகள் உங்கள் சாதனத்திலேயே கையாளப்படுகின்றன. WiFiControl இணைய அணுகலைக் கேட்பதில்லை. மூலக் குறியீடு முழுவதும் நீங்கள் பார்வையிட GitHub-இல் பொதுவில் உள்ளது.</string>
+    <string name="main_button_source">GitHub-இல் மூலக் குறியீட்டைப் பார்க்கவும்</string>
+    <string name="main_status_enabled">Wi-Fi இயக்கத்தில் உள்ளது</string>
+    <string name="main_status_disabled">Wi-Fi முடக்கத்தில் உள்ளது</string>
+    <string name="main_status_changing">Wi-Fi மாற்றப்படுகிறது…</string>
+    <string name="main_error_change_rejected">Android இப்போது Wi-Fi-ஐ மாற்ற முடியவில்லை.</string>
+    <string name="main_error_open_source">GitHub-ஐத் திறக்க ஆப்ஸ் எதுவும் இல்லை.</string>
+    <string name="main_version">பதிப்பு: %1$s (%2$d)</string>
 </resources>

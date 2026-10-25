@@ -5,4 +5,19 @@
     <string name="main_label_app_description">Denne appen lar deg aktivere og deaktivere WiFi.</string>
     <string name="main_label_compatibility_description">Den inneholder en gammel kompatibilitetsversjon for å gjøre det mulig å jobbe med wifi.</string>
     <string name="main_label_github_description">Kodekilden er tilgjengelig på GitHub, hvor du laster ned appen.</string>
+    <string name="main_title_automatic">Automatisk Wi-Fi med AutoHotspot</string>
+    <string name="main_body_automatic">AutoHotspot sender lokale forespørsler til denne hjelpeappen for å slå Wi-Fi på eller av når reglene du har satt opp, kjører. La WiFiControl være installert. Du trenger ikke å holde denne skjermen åpen.</string>
+    <string name="main_title_manual">Test Wi-Fi manuelt</string>
+    <string name="main_body_manual">Bruk disse knappene for å sjekke at Android lar denne hjelpeappen bytte Wi-Fi. Automatisk bytte settes opp i AutoHotspot.</string>
+    <string name="main_title_compatibility">Hvorfor Android viser en advarsel</string>
+    <string name="main_body_compatibility">Denne hjelpeappen bruker et eldre Android-kompatibilitetsmål for å bytte Wi-Fi. Det kan føre til at Android viser en advarsel om en eldre app.</string>
+    <string name="main_title_transparency">Åpen kildekode og lokal</string>
+    <string name="main_body_transparency">Forespørsler om Wi-Fi-styring håndteres på enheten din. WiFiControl ber ikke om internettilgang. All kildekode er offentlig på GitHub, så du kan gå gjennom den.</string>
+    <string name="main_button_source">Se kildekoden på GitHub</string>
+    <string name="main_status_enabled">Wi-Fi er på</string>
+    <string name="main_status_disabled">Wi-Fi er av</string>
+    <string name="main_status_changing">Bytter Wi-Fi…</string>
+    <string name="main_error_change_rejected">Android kunne ikke endre Wi-Fi akkurat nå.</string>
+    <string name="main_error_open_source">Ingen app er tilgjengelig for å åpne GitHub.</string>
+    <string name="main_version">Versjon: %1$s (%2$d)</string>
 </resources>

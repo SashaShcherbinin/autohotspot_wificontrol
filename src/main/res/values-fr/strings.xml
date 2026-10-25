@@ -5,4 +5,19 @@
     <string name="main_label_app_description">Cette application vous permet d’activer et de désactiver le WiFi.</string>
     <string name="main_label_compatibility_description">Il contient une ancienne version de compatibilité pour permettre de travailler avec le wifi.</string>
     <string name="main_label_github_description">La source du code est disponible sur GitHub, où vous téléchargez l’application.</string>
+    <string name="main_title_automatic">Wi-Fi automatique avec AutoHotspot</string>
+    <string name="main_body_automatic">AutoHotspot envoie des requêtes locales à cette application d\'assistance pour activer ou désactiver le Wi-Fi lorsque vos règles configurées s\'exécutent. Gardez WiFiControl installé. Inutile de laisser cet écran ouvert.</string>
+    <string name="main_title_manual">Tester le Wi-Fi manuellement</string>
+    <string name="main_body_manual">Utilisez ces boutons pour vérifier qu\'Android autorise cette application d\'assistance à changer le Wi-Fi. Le changement automatique se configure dans AutoHotspot.</string>
+    <string name="main_title_compatibility">Pourquoi Android affiche un avertissement</string>
+    <string name="main_body_compatibility">Cette application d\'assistance utilise une cible de compatibilité Android plus ancienne pour changer le Wi-Fi. Cette cible peut amener Android à afficher un avertissement d\'application ancienne.</string>
+    <string name="main_title_transparency">Open source et local</string>
+    <string name="main_body_transparency">Les requêtes de contrôle du Wi-Fi sont traitées sur votre appareil. WiFiControl ne demande pas d\'accès à Internet. Tout le code source est public sur GitHub pour que vous puissiez le consulter.</string>
+    <string name="main_button_source">Consulter le code source sur GitHub</string>
+    <string name="main_status_enabled">Le Wi-Fi est activé</string>
+    <string name="main_status_disabled">Le Wi-Fi est désactivé</string>
+    <string name="main_status_changing">Changement du Wi-Fi…</string>
+    <string name="main_error_change_rejected">Android n\'a pas pu changer le Wi-Fi pour le moment.</string>
+    <string name="main_error_open_source">Aucune application disponible pour ouvrir GitHub.</string>
+    <string name="main_version">Version : %1$s (%2$d)</string>
 </resources>

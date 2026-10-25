@@ -5,4 +5,19 @@
     <string name="main_label_app_description">यो एपले तपाईंलाई WiFi सक्षम र असक्षम गर्न अनुमति दिन्छ।</string>
     <string name="main_label_compatibility_description">यसले वाइफाइसँग काम गर्न सम्भव बनाउनको लागि पुरानो अनुकूलता संस्करण समावेश गर्दछ।</string>
     <string name="main_label_github_description">कोड स्रोत GitHub मा उपलब्ध छ, जहाँ तपाइँ एप डाउनलोड गर्नुहुन्छ।</string>
+    <string name="main_title_automatic">AutoHotspot सँग स्वचालित Wi-Fi</string>
+    <string name="main_body_automatic">तपाईंले सेट गरेका नियमहरू चल्दा AutoHotspot ले Wi-Fi अन वा अफ गर्न यो सहायक एपलाई स्थानीय अनुरोध पठाउँछ। WiFiControl इन्स्टल गरिराख्नुहोस्। यो स्क्रिन खुला राखिराख्नु पर्दैन।</string>
+    <string name="main_title_manual">Wi-Fi म्यानुअल रूपमा परीक्षण गर्नुहोस्</string>
+    <string name="main_body_manual">Android ले यो सहायक एपलाई Wi-Fi बदल्न दिन्छ कि दिँदैन भनी यी बटनहरूबाट जाँच गर्नुहोस्। स्वचालित परिवर्तन AutoHotspot मा सेट गरिन्छ।</string>
+    <string name="main_title_compatibility">Android ले किन चेतावनी देखाउँछ</string>
+    <string name="main_body_compatibility">यो सहायक एपले Wi-Fi बदल्न Android को पुरानो अनुकूलता लक्ष्य प्रयोग गर्छ। यसले गर्दा Android ले पुरानो एपको चेतावनी देखाउन सक्छ।</string>
+    <string name="main_title_transparency">खुला स्रोत र स्थानीय</string>
+    <string name="main_body_transparency">Wi-Fi नियन्त्रणका अनुरोधहरू तपाईंकै डिभाइसमा प्रक्रिया हुन्छन्। WiFiControl ले इन्टरनेट पहुँच माग्दैन। सबै स्रोत कोड GitHub मा सार्वजनिक छ, तपाईं समीक्षा गर्न सक्नुहुन्छ।</string>
+    <string name="main_button_source">GitHub मा स्रोत कोड हेर्नुहोस्</string>
+    <string name="main_status_enabled">Wi-Fi अन छ</string>
+    <string name="main_status_disabled">Wi-Fi अफ छ</string>
+    <string name="main_status_changing">Wi-Fi बदलिँदैछ…</string>
+    <string name="main_error_change_rejected">Android ले अहिले Wi-Fi बदल्न सकेन।</string>
+    <string name="main_error_open_source">GitHub खोल्ने कुनै एप उपलब्ध छैन।</string>
+    <string name="main_version">संस्करण: %1$s (%2$d)</string>
 </resources>

@@ -5,4 +5,19 @@
     <string name="main_label_app_description">Ši programa leidžia įjungti ir išjungti „WiFi“.</string>
     <string name="main_label_compatibility_description">Jame yra sena suderinamumo versija, kad būtų galima dirbti su „Wi-Fi“.</string>
     <string name="main_label_github_description">Kodo šaltinis yra „GitHub“, kur atsisiunčiate programą.</string>
+    <string name="main_title_automatic">Automatinis Wi-Fi su AutoHotspot</string>
+    <string name="main_body_automatic">Kai paleidžiamos jūsų nustatytos taisyklės, AutoHotspot siunčia šiai pagalbinei programai vietines užklausas įjungti arba išjungti Wi-Fi. Palikite WiFiControl įdiegtą. Šio ekrano laikyti atidaryto nereikia.</string>
+    <string name="main_title_manual">Patikrinkite Wi-Fi rankiniu būdu</string>
+    <string name="main_body_manual">Šiais mygtukais patikrinkite, ar Android leidžia šiai pagalbinei programai perjungti Wi-Fi. Automatinis perjungimas nustatomas AutoHotspot programoje.</string>
+    <string name="main_title_compatibility">Kodėl Android rodo įspėjimą</string>
+    <string name="main_body_compatibility">Ši pagalbinė programa Wi-Fi perjungimui naudoja senesnę Android suderinamumo tikslinę versiją. Dėl to Android gali rodyti įspėjimą apie senesnę programą.</string>
+    <string name="main_title_transparency">Atvirasis kodas ir vietinis veikimas</string>
+    <string name="main_body_transparency">Wi-Fi valdymo užklausos apdorojamos jūsų įrenginyje. WiFiControl neprašo prieigos prie interneto. Visas šaltinio kodas viešai prieinamas GitHub, kad galėtumėte jį peržiūrėti.</string>
+    <string name="main_button_source">Peržiūrėti šaltinio kodą GitHub</string>
+    <string name="main_status_enabled">Wi-Fi įjungtas</string>
+    <string name="main_status_disabled">Wi-Fi išjungtas</string>
+    <string name="main_status_changing">Keičiamas Wi-Fi…</string>
+    <string name="main_error_change_rejected">Android šiuo metu negalėjo pakeisti Wi-Fi.</string>
+    <string name="main_error_open_source">Nėra programos, kuri atidarytų GitHub.</string>
+    <string name="main_version">Versija: %1$s (%2$d)</string>
 </resources>

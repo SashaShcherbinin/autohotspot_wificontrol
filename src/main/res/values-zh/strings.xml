@@ -5,4 +5,19 @@
     <string name="main_label_app_description">此应用程序允许您启用和禁用 WiFi。</string>
     <string name="main_label_compatibility_description">它包含一个旧的兼容版本，以便可以与 wifi 配合使用。</string>
     <string name="main_label_github_description">代码源代码可在 GitHub 上找到，您可以在那里下载该应用程序。</string>
+    <string name="main_title_automatic">通过 AutoHotspot 自动切换 Wi-Fi</string>
+    <string name="main_body_automatic">当您设置的规则运行时，AutoHotspot 会向此助手发送本地请求，以开启或关闭 Wi-Fi。请保持 WiFiControl 已安装。无需保持此屏幕打开。</string>
+    <string name="main_title_manual">手动测试 Wi-Fi</string>
+    <string name="main_body_manual">使用这些按钮检查 Android 是否允许此助手切换 Wi-Fi。自动切换在 AutoHotspot 中设置。</string>
+    <string name="main_title_compatibility">为什么 Android 会显示警告</string>
+    <string name="main_body_compatibility">此助手使用较旧的 Android 兼容性目标来切换 Wi-Fi。因此 Android 可能会显示旧版应用警告。</string>
+    <string name="main_title_transparency">开源且在本地运行</string>
+    <string name="main_body_transparency">Wi-Fi 控制请求在您的设备上处理。WiFiControl 不请求互联网访问权限。所有源代码都在 GitHub 上公开，供您查看。</string>
+    <string name="main_button_source">在 GitHub 上查看源代码</string>
+    <string name="main_status_enabled">Wi-Fi 已开启</string>
+    <string name="main_status_disabled">Wi-Fi 已关闭</string>
+    <string name="main_status_changing">正在切换 Wi-Fi…</string>
+    <string name="main_error_change_rejected">Android 当前无法更改 Wi-Fi。</string>
+    <string name="main_error_open_source">没有可打开 GitHub 的应用。</string>
+    <string name="main_version">版本：%1$s (%2$d)</string>
 </resources>

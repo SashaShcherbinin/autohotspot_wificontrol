@@ -5,4 +5,19 @@
     <string name="main_label_app_description">Това приложение ви позволява да активирате и деактивирате WiFi.</string>
     <string name="main_label_compatibility_description">Той съдържа стара версия за съвместимост, за да може да работи с wifi.</string>
     <string name="main_label_github_description">Източникът на кода е наличен в GitHub, откъдето изтегляте приложението.</string>
+    <string name="main_title_automatic">Автоматичен Wi-Fi с AutoHotspot</string>
+    <string name="main_body_automatic">AutoHotspot изпраща локални заявки до този помощник, за да включва или изключва Wi-Fi, когато се изпълняват зададените от вас правила. Оставете WiFiControl инсталиран. Не е нужно този екран да остава отворен.</string>
+    <string name="main_title_manual">Ръчна проверка на Wi-Fi</string>
+    <string name="main_body_manual">Използвайте тези бутони, за да проверите дали Android позволява на този помощник да превключва Wi-Fi. Автоматичното превключване се настройва в AutoHotspot.</string>
+    <string name="main_title_compatibility">Защо Android показва предупреждение</string>
+    <string name="main_body_compatibility">Този помощник използва по-стара цел за съвместимост с Android, за да превключва Wi-Fi. Заради нея Android може да покаже предупреждение за остаряло приложение.</string>
+    <string name="main_title_transparency">Отворен код и локална работа</string>
+    <string name="main_body_transparency">Заявките за управление на Wi-Fi се обработват на устройството ви. WiFiControl не изисква достъп до интернет. Целият изходен код е публичен в GitHub, за да го прегледате.</string>
+    <string name="main_button_source">Преглед на изходния код в GitHub</string>
+    <string name="main_status_enabled">Wi-Fi е включен</string>
+    <string name="main_status_disabled">Wi-Fi е изключен</string>
+    <string name="main_status_changing">Wi-Fi се превключва…</string>
+    <string name="main_error_change_rejected">Android не успя да промени Wi-Fi в момента.</string>
+    <string name="main_error_open_source">Няма приложение, което да отвори GitHub.</string>
+    <string name="main_version">Версия: %1$s (%2$d)</string>
 </resources>

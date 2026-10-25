@@ -5,4 +5,19 @@
     <string name="main_label_app_description">Энэхүү програм нь WiFi-г идэвхжүүлэх, идэвхгүй болгох боломжийг танд олгоно.</string>
     <string name="main_label_compatibility_description">Энэ нь Wi-Fi-тай ажиллах боломжтой болгохын тулд хуучин нийцтэй хувилбарыг агуулдаг.</string>
     <string name="main_label_github_description">Кодын эх сурвалжийг GitHub дээр ашиглах боломжтой бөгөөд та програмаа татаж авах боломжтой.</string>
+    <string name="main_title_automatic">AutoHotspot-оор автомат Wi-Fi</string>
+    <string name="main_body_automatic">Таны тохируулсан дүрмүүд ажиллах үед AutoHotspot нь Wi-Fi-г асаах эсвэл унтраахаар энэ туслах апп руу дотоод хүсэлт илгээдэг. WiFiControl-ийг суулгасан хэвээр нь үлдээгээрэй. Энэ дэлгэцийг нээлттэй байлгах шаардлагагүй.</string>
+    <string name="main_title_manual">Wi-Fi-г гараар шалгах</string>
+    <string name="main_body_manual">Android энэ туслах аппад Wi-Fi-г сэлгэхийг зөвшөөрч байгаа эсэхийг эдгээр товчоор шалгана уу. Автомат сэлгэлтийг AutoHotspot-д тохируулна.</string>
+    <string name="main_title_compatibility">Android яагаад анхааруулга харуулдаг вэ</string>
+    <string name="main_body_compatibility">Энэ туслах апп Wi-Fi-г сэлгэхийн тулд Android-ийн хуучин нийцлийн зорилтыг ашигладаг. Үүнээс болж Android хуучин апп гэсэн анхааруулга харуулж болно.</string>
+    <string name="main_title_transparency">Нээлттэй эх код, дотоод ажиллагаа</string>
+    <string name="main_body_transparency">Wi-Fi удирдах хүсэлтүүд таны төхөөрөмж дээр боловсруулагдана. WiFiControl интернэт хандалт хүсдэггүй. Бүх эх код GitHub дээр нийтэд нээлттэй тул та шалгаж болно.</string>
+    <string name="main_button_source">Эх кодыг GitHub дээр харах</string>
+    <string name="main_status_enabled">Wi-Fi асаалттай</string>
+    <string name="main_status_disabled">Wi-Fi унтраалттай</string>
+    <string name="main_status_changing">Wi-Fi-г сэлгэж байна…</string>
+    <string name="main_error_change_rejected">Android яг одоо Wi-Fi-г өөрчилж чадсангүй.</string>
+    <string name="main_error_open_source">GitHub нээх апп алга.</string>
+    <string name="main_version">Хувилбар: %1$s (%2$d)</string>
 </resources>

@@ -5,4 +5,19 @@
     <string name="main_label_app_description">Aplikazio honek WiFi gaitu eta desgaitu dezakezu.</string>
     <string name="main_label_compatibility_description">Bateragarritasun bertsio zahar bat dauka wifiarekin lan egin ahal izateko.</string>
     <string name="main_label_github_description">Kode-iturria GitHub-en dago eskuragarri, aplikazioa deskargatzen duzun tokian.</string>
+    <string name="main_title_automatic">Wi-Fi automatikoa AutoHotspot-ekin</string>
+    <string name="main_body_automatic">AutoHotspot-ek tokiko eskaerak bidaltzen dizkio laguntzaile honi Wi-Fia aktibatzeko edo desaktibatzeko, konfiguratutako arauak exekutatzen direnean. Mantendu WiFiControl instalatuta. Ez duzu pantaila hau irekita eduki behar.</string>
+    <string name="main_title_manual">Probatu Wi-Fia eskuz</string>
+    <string name="main_body_manual">Erabili botoi hauek egiaztatzeko Android-ek laguntzaile honi Wi-Fia aldatzeko baimena ematen diola. Aldaketa automatikoa AutoHotspot-en konfiguratzen da.</string>
+    <string name="main_title_compatibility">Zergatik erakusten du Android-ek abisu bat</string>
+    <string name="main_body_compatibility">Laguntzaile honek Android-en bateragarritasun-helburu zaharrago bat erabiltzen du Wi-Fia aldatzeko. Horren ondorioz, Android-ek aplikazio zaharraren abisua erakuts dezake.</string>
+    <string name="main_title_transparency">Kode irekia eta lokala</string>
+    <string name="main_body_transparency">Wi-Fia kontrolatzeko eskaerak zure gailuan prozesatzen dira. WiFiControl-ek ez du Interneterako sarbiderik eskatzen. Iturburu-kode osoa publikoa da GitHub-en, berrikus dezazun.</string>
+    <string name="main_button_source">Berrikusi iturburu-kodea GitHub-en</string>
+    <string name="main_status_enabled">Wi-Fia aktibatuta dago</string>
+    <string name="main_status_disabled">Wi-Fia desaktibatuta dago</string>
+    <string name="main_status_changing">Wi-Fia aldatzen…</string>
+    <string name="main_error_change_rejected">Android-ek ezin izan du Wi-Fia aldatu une honetan.</string>
+    <string name="main_error_open_source">Ez dago GitHub irekitzeko aplikaziorik.</string>
+    <string name="main_version">Bertsioa: %1$s (%2$d)</string>
 </resources>

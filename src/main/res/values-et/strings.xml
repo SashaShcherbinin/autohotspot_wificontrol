@@ -5,4 +5,19 @@
     <string name="main_label_app_description">See rakendus võimaldab teil WiFi lubada ja keelata.</string>
     <string name="main_label_compatibility_description">See sisaldab vana ühilduvusversiooni, mis võimaldab töötada wifiga.</string>
     <string name="main_label_github_description">Koodi allikas on saadaval GitHubis, kust saate rakenduse alla laadida.</string>
+    <string name="main_title_automatic">Automaatne Wi-Fi AutoHotspotiga</string>
+    <string name="main_body_automatic">AutoHotspot saadab sellele abirakendusele kohalikke päringuid, et lülitada Wi-Fi sisse või välja, kui sinu seadistatud reeglid käivituvad. Hoia WiFiControl installituna. Seda ekraani ei pea avatuna hoidma.</string>
+    <string name="main_title_manual">Testi Wi-Fid käsitsi</string>
+    <string name="main_body_manual">Kasuta neid nuppe, et kontrollida, kas Android lubab sellel abirakendusel Wi-Fid lülitada. Automaatne lülitamine seadistatakse AutoHotspotis.</string>
+    <string name="main_title_compatibility">Miks Android hoiatust näitab</string>
+    <string name="main_body_compatibility">See abirakendus kasutab Wi-Fi lülitamiseks vanemat Androidi ühilduvuse sihttaset. Selle tõttu võib Android näidata vanema rakenduse hoiatust.</string>
+    <string name="main_title_transparency">Avatud lähtekood ja kohalik töö</string>
+    <string name="main_body_transparency">Wi-Fi juhtimise päringuid töödeldakse sinu seadmes. WiFiControl ei küsi internetiühendust. Kogu lähtekood on GitHubis avalikult ülevaatamiseks saadaval.</string>
+    <string name="main_button_source">Vaata lähtekoodi GitHubis</string>
+    <string name="main_status_enabled">Wi-Fi on sees</string>
+    <string name="main_status_disabled">Wi-Fi on väljas</string>
+    <string name="main_status_changing">Wi-Fi lülitamine…</string>
+    <string name="main_error_change_rejected">Android ei saanud praegu Wi-Fid muuta.</string>
+    <string name="main_error_open_source">GitHubi avamiseks pole ühtegi rakendust.</string>
+    <string name="main_version">Versioon: %1$s (%2$d)</string>
 </resources>

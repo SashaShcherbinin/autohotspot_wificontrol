@@ -5,4 +5,19 @@
     <string name="main_label_app_description">Denna app låter dig aktivera och inaktivera WiFi.</string>
     <string name="main_label_compatibility_description">Den innehåller en gammal kompatibilitetsversion för att göra det möjligt att arbeta med wifi.</string>
     <string name="main_label_github_description">Kodkällan finns på GitHub, där du laddar ner appen.</string>
+    <string name="main_title_automatic">Automatiskt wifi med AutoHotspot</string>
+    <string name="main_body_automatic">AutoHotspot skickar lokala förfrågningar till den här hjälpappen för att slå på eller av wifi när dina inställda regler körs. Låt WiFiControl vara installerad. Du behöver inte ha den här skärmen öppen.</string>
+    <string name="main_title_manual">Testa wifi manuellt</string>
+    <string name="main_body_manual">Använd de här knapparna för att kontrollera att Android låter hjälpappen växla wifi. Automatisk växling ställs in i AutoHotspot.</string>
+    <string name="main_title_compatibility">Varför Android visar en varning</string>
+    <string name="main_body_compatibility">Den här hjälpappen använder en äldre Android-kompatibilitetsnivå för att växla wifi. Därför kan Android visa en varning om en äldre app.</string>
+    <string name="main_title_transparency">Öppen källkod och lokalt</string>
+    <string name="main_body_transparency">Förfrågningar om wifi-styrning hanteras på din enhet. WiFiControl begär inte internetåtkomst. All källkod är offentlig på GitHub så att du kan granska den.</string>
+    <string name="main_button_source">Granska källkoden på GitHub</string>
+    <string name="main_status_enabled">Wifi är på</string>
+    <string name="main_status_disabled">Wifi är av</string>
+    <string name="main_status_changing">Växlar wifi…</string>
+    <string name="main_error_change_rejected">Android kunde inte ändra wifi just nu.</string>
+    <string name="main_error_open_source">Det finns ingen app som kan öppna GitHub.</string>
+    <string name="main_version">Version: %1$s (%2$d)</string>
 </resources>

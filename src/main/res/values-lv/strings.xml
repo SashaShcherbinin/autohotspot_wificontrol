@@ -5,4 +5,19 @@
     <string name="main_label_app_description">Šī lietotne ļauj iespējot un atspējot WiFi.</string>
     <string name="main_label_compatibility_description">Tajā ir veca saderības versija, kas ļauj strādāt ar wifi.</string>
     <string name="main_label_github_description">Koda avots ir pieejams vietnē GitHub, kur lejupielādējat lietotni.</string>
+    <string name="main_title_automatic">Automātisks Wi-Fi ar AutoHotspot</string>
+    <string name="main_body_automatic">Kad tiek izpildīti jūsu iestatītie noteikumi, AutoHotspot sūta šai palīglietotnei lokālus pieprasījumus ieslēgt vai izslēgt Wi-Fi. Saglabājiet WiFiControl instalētu. Šo ekrānu nav jātur atvērtu.</string>
+    <string name="main_title_manual">Pārbaudīt Wi-Fi manuāli</string>
+    <string name="main_body_manual">Ar šīm pogām pārbaudiet, vai Android ļauj šai palīglietotnei pārslēgt Wi-Fi. Automātiskā pārslēgšana tiek iestatīta lietotnē AutoHotspot.</string>
+    <string name="main_title_compatibility">Kāpēc Android rāda brīdinājumu</string>
+    <string name="main_body_compatibility">Šī palīglietotne Wi-Fi pārslēgšanai izmanto vecāku Android saderības mērķi. Tāpēc Android var parādīt brīdinājumu par vecāku lietotni.</string>
+    <string name="main_title_transparency">Atvērtais kods un lokāla darbība</string>
+    <string name="main_body_transparency">Wi-Fi vadības pieprasījumi tiek apstrādāti jūsu ierīcē. WiFiControl nepieprasa piekļuvi internetam. Viss pirmkods ir publiski pieejams GitHub, lai jūs to varētu pārskatīt.</string>
+    <string name="main_button_source">Skatīt pirmkodu GitHub</string>
+    <string name="main_status_enabled">Wi-Fi ir ieslēgts</string>
+    <string name="main_status_disabled">Wi-Fi ir izslēgts</string>
+    <string name="main_status_changing">Notiek Wi-Fi pārslēgšana…</string>
+    <string name="main_error_change_rejected">Android pašlaik nevarēja mainīt Wi-Fi.</string>
+    <string name="main_error_open_source">Nav pieejamas lietotnes GitHub atvēršanai.</string>
+    <string name="main_version">Versija: %1$s (%2$d)</string>
 </resources>

@@ -5,4 +5,19 @@
     <string name="main_label_app_description">Met deze app kun je WiFi in- en uitschakelen.</string>
     <string name="main_label_compatibility_description">Er zit een oude compatibiliteitsversie in om het werken met wifi mogelijk te maken.</string>
     <string name="main_label_github_description">De codebron is beschikbaar op GitHub, waar u de app downloadt.</string>
+    <string name="main_title_automatic">Automatische wifi met AutoHotspot</string>
+    <string name="main_body_automatic">AutoHotspot stuurt lokale verzoeken naar deze hulpapp om wifi in of uit te schakelen wanneer je ingestelde regels worden uitgevoerd. Laat WiFiControl geïnstalleerd. Je hoeft dit scherm niet open te houden.</string>
+    <string name="main_title_manual">Wifi handmatig testen</string>
+    <string name="main_body_manual">Gebruik deze knoppen om te controleren of Android deze hulpapp toestaat wifi te schakelen. Automatisch schakelen stel je in AutoHotspot in.</string>
+    <string name="main_title_compatibility">Waarom Android een waarschuwing toont</string>
+    <string name="main_body_compatibility">Deze hulpapp gebruikt een ouder Android-compatibiliteitsdoel om wifi te schakelen. Daardoor kan Android een waarschuwing voor een oudere app tonen.</string>
+    <string name="main_title_transparency">Open source en lokaal</string>
+    <string name="main_body_transparency">Verzoeken om wifi te bedienen worden op je apparaat verwerkt. WiFiControl vraagt geen internettoegang. Alle broncode staat openbaar op GitHub zodat je die kunt bekijken.</string>
+    <string name="main_button_source">Broncode bekijken op GitHub</string>
+    <string name="main_status_enabled">Wifi staat aan</string>
+    <string name="main_status_disabled">Wifi staat uit</string>
+    <string name="main_status_changing">Wifi wordt geschakeld…</string>
+    <string name="main_error_change_rejected">Android kon de wifi nu niet wijzigen.</string>
+    <string name="main_error_open_source">Er is geen app beschikbaar om GitHub te openen.</string>
+    <string name="main_version">Versie: %1$s (%2$d)</string>
 </resources>

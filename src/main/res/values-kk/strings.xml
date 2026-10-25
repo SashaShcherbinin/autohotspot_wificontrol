@@ -5,4 +5,19 @@
     <string name="main_label_app_description">Бұл қолданба WiFi мүмкіндігін қосуға және өшіруге мүмкіндік береді.</string>
     <string name="main_label_compatibility_description">Онда Wi-Fi желісімен жұмыс істеуге мүмкіндік беретін ескі үйлесімділік нұсқасы бар.</string>
     <string name="main_label_github_description">Код көзі қолданбаны жүктеп алатын GitHub сайтында қолжетімді.</string>
+    <string name="main_title_automatic">AutoHotspot арқылы автоматты Wi-Fi</string>
+    <string name="main_body_automatic">Сіз орнатқан ережелер іске қосылғанда, AutoHotspot Wi-Fi-ды қосу немесе өшіру үшін осы көмекші қолданбаға жергілікті сұраулар жібереді. WiFiControl қолданбасын орнатулы күйде қалдырыңыз. Бұл экранды ашық ұстаудың қажеті жоқ.</string>
+    <string name="main_title_manual">Wi-Fi-ды қолмен тексеру</string>
+    <string name="main_body_manual">Android осы көмекші қолданбаға Wi-Fi-ды ауыстыруға рұқсат беретінін тексеру үшін осы түймелерді пайдаланыңыз. Автоматты ауыстыру AutoHotspot ішінде бапталады.</string>
+    <string name="main_title_compatibility">Android неге ескерту көрсетеді</string>
+    <string name="main_body_compatibility">Бұл көмекші қолданба Wi-Fi-ды ауыстыру үшін Android-тің ескірек үйлесімділік мақсатын пайдаланады. Сол себепті Android ескі қолданба туралы ескерту көрсетуі мүмкін.</string>
+    <string name="main_title_transparency">Ашық бастапқы код және жергілікті жұмыс</string>
+    <string name="main_body_transparency">Wi-Fi басқару сұраулары құрылғыңызда өңделеді. WiFiControl интернетке қатынас сұрамайды. Бастапқы кодтың барлығы GitHub-та жария, оны қарап шыға аласыз.</string>
+    <string name="main_button_source">GitHub-та бастапқы кодты қарау</string>
+    <string name="main_status_enabled">Wi-Fi қосулы</string>
+    <string name="main_status_disabled">Wi-Fi өшірулі</string>
+    <string name="main_status_changing">Wi-Fi ауыстырылуда…</string>
+    <string name="main_error_change_rejected">Android қазір Wi-Fi-ды өзгерте алмады.</string>
+    <string name="main_error_open_source">GitHub ашатын қолданба жоқ.</string>
+    <string name="main_version">Нұсқа: %1$s (%2$d)</string>
 </resources>

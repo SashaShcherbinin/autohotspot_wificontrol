@@ -5,4 +5,19 @@
     <string name="main_label_app_description">Tato aplikace vám umožňuje povolit a zakázat WiFi.</string>
     <string name="main_label_compatibility_description">Obsahuje starou verzi kompatibility, aby bylo možné pracovat s wifi.</string>
     <string name="main_label_github_description">Zdroj kódu je k dispozici na GitHubu, odkud si aplikaci stáhnete.</string>
+    <string name="main_title_automatic">Automatická Wi-Fi s AutoHotspot</string>
+    <string name="main_body_automatic">AutoHotspot posílá tomuto pomocníkovi místní požadavky na zapnutí nebo vypnutí Wi-Fi, když se spustí vámi nastavená pravidla. Nechte WiFiControl nainstalovaný. Tuto obrazovku nemusíte mít otevřenou.</string>
+    <string name="main_title_manual">Ruční test Wi-Fi</string>
+    <string name="main_body_manual">Pomocí těchto tlačítek ověříte, že Android tomuto pomocníkovi dovoluje přepínat Wi-Fi. Automatické přepínání se nastavuje v AutoHotspot.</string>
+    <string name="main_title_compatibility">Proč Android zobrazuje varování</string>
+    <string name="main_body_compatibility">Tento pomocník používá k přepínání Wi-Fi starší cílovou verzi kompatibility Androidu. Kvůli ní může Android zobrazit varování o starší aplikaci.</string>
+    <string name="main_title_transparency">Otevřený kód a místní provoz</string>
+    <string name="main_body_transparency">Požadavky na ovládání Wi-Fi se zpracovávají ve vašem zařízení. WiFiControl nepožaduje přístup k internetu. Veškerý zdrojový kód je veřejně na GitHubu, kde si ho můžete prohlédnout.</string>
+    <string name="main_button_source">Zobrazit zdrojový kód na GitHubu</string>
+    <string name="main_status_enabled">Wi-Fi je zapnutá</string>
+    <string name="main_status_disabled">Wi-Fi je vypnutá</string>
+    <string name="main_status_changing">Přepínání Wi-Fi…</string>
+    <string name="main_error_change_rejected">Android teď nemohl změnit Wi-Fi.</string>
+    <string name="main_error_open_source">Není k dispozici žádná aplikace pro otevření GitHubu.</string>
+    <string name="main_version">Verze: %1$s (%2$d)</string>
 </resources>

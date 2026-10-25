@@ -5,4 +5,19 @@
     <string name="main_label_app_description">यह ऐप आपको वाई-फाई को सक्षम और अक्षम करने की अनुमति देता है।</string>
     <string name="main_label_compatibility_description">इसमें वाईफाई के साथ काम करना संभव बनाने के लिए एक पुराना संगतता संस्करण शामिल है।</string>
     <string name="main_label_github_description">कोड स्रोत GitHub पर उपलब्ध है, जहां से आप ऐप डाउनलोड कर सकते हैं।</string>
+    <string name="main_title_automatic">AutoHotspot के साथ अपने-आप Wi-Fi</string>
+    <string name="main_body_automatic">जब आपके सेट किए गए नियम चलते हैं, तब AutoHotspot इस सहायक ऐप को Wi-Fi चालू या बंद करने के लिए लोकल अनुरोध भेजता है। WiFiControl को इंस्टॉल रखें। इस स्क्रीन को खुला रखने की ज़रूरत नहीं है।</string>
+    <string name="main_title_manual">Wi-Fi को मैन्युअल रूप से जांचें</string>
+    <string name="main_body_manual">इन बटनों से जांचें कि Android इस सहायक ऐप को Wi-Fi बदलने देता है या नहीं। अपने-आप बदलना AutoHotspot में सेट किया जाता है।</string>
+    <string name="main_title_compatibility">Android चेतावनी क्यों दिखाता है</string>
+    <string name="main_body_compatibility">यह सहायक ऐप Wi-Fi बदलने के लिए Android के पुराने संगतता लक्ष्य का उपयोग करता है। इस वजह से Android पुराने ऐप की चेतावनी दिखा सकता है।</string>
+    <string name="main_title_transparency">ओपन सोर्स और लोकल</string>
+    <string name="main_body_transparency">Wi-Fi नियंत्रण के अनुरोध आपके डिवाइस पर ही संभाले जाते हैं। WiFiControl इंटरनेट एक्सेस नहीं मांगता। पूरा सोर्स कोड GitHub पर सार्वजनिक है, ताकि आप उसकी समीक्षा कर सकें।</string>
+    <string name="main_button_source">GitHub पर सोर्स कोड देखें</string>
+    <string name="main_status_enabled">Wi-Fi चालू है</string>
+    <string name="main_status_disabled">Wi-Fi बंद है</string>
+    <string name="main_status_changing">Wi-Fi बदला जा रहा है…</string>
+    <string name="main_error_change_rejected">Android अभी Wi-Fi नहीं बदल सका।</string>
+    <string name="main_error_open_source">GitHub खोलने के लिए कोई ऐप उपलब्ध नहीं है।</string>
+    <string name="main_version">वर्शन: %1$s (%2$d)</string>
 </resources>

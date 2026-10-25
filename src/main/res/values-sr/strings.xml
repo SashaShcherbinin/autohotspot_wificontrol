@@ -5,4 +5,19 @@
     <string name="main_label_app_description">Ова апликација вам омогућава да омогућите и онемогућите ВиФи.</string>
     <string name="main_label_compatibility_description">Садржи стару верзију компатибилности која омогућава рад са вифи-ом.</string>
     <string name="main_label_github_description">Извор кода је доступан на ГитХуб-у, где преузимате апликацију.</string>
+    <string name="main_title_automatic">Аутоматски Wi-Fi уз AutoHotspot</string>
+    <string name="main_body_automatic">Када се покрену правила која сте подесили, AutoHotspot шаље овом помоћнику локалне захтеве да укључи или искључи Wi-Fi. Оставите WiFiControl инсталиран. Овај екран не мора да остане отворен.</string>
+    <string name="main_title_manual">Ручно тестирање Wi-Fi-ја</string>
+    <string name="main_body_manual">Овим дугмадима проверите да ли Android дозвољава овом помоћнику да мења Wi-Fi. Аутоматско пребацивање се подешава у AutoHotspot-у.</string>
+    <string name="main_title_compatibility">Зашто Android приказује упозорење</string>
+    <string name="main_body_compatibility">Овај помоћник за пребацивање Wi-Fi-ја користи старији циљ компатибилности Android-а. Због тога Android може да прикаже упозорење о старијој апликацији.</string>
+    <string name="main_title_transparency">Отворени код и локални рад</string>
+    <string name="main_body_transparency">Захтеви за управљање Wi-Fi-јем обрађују се на вашем уређају. WiFiControl не тражи приступ интернету. Цео изворни код је јавно доступан на GitHub-у да га прегледате.</string>
+    <string name="main_button_source">Прегледај изворни код на GitHub-у</string>
+    <string name="main_status_enabled">Wi-Fi је укључен</string>
+    <string name="main_status_disabled">Wi-Fi је искључен</string>
+    <string name="main_status_changing">Мења се Wi-Fi…</string>
+    <string name="main_error_change_rejected">Android тренутно није могао да промени Wi-Fi.</string>
+    <string name="main_error_open_source">Нема апликације за отварање GitHub-а.</string>
+    <string name="main_version">Верзија: %1$s (%2$d)</string>
 </resources>

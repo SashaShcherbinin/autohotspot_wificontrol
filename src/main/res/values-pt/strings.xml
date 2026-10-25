@@ -5,4 +5,19 @@
     <string name="main_label_app_description">Este aplicativo permite ativar e desativar o WiFi.</string>
     <string name="main_label_compatibility_description">Contém uma versão antiga de compatibilidade para possibilitar o trabalho com wifi.</string>
     <string name="main_label_github_description">A fonte do código está disponível no GitHub, onde você baixa o aplicativo.</string>
+    <string name="main_title_automatic">Wi-Fi automático com o AutoHotspot</string>
+    <string name="main_body_automatic">O AutoHotspot envia pedidos locais a esta app auxiliar para ligar ou desligar o Wi-Fi quando as regras que configurou são executadas. Mantenha o WiFiControl instalado. Não precisa de manter este ecrã aberto.</string>
+    <string name="main_title_manual">Testar o Wi-Fi manualmente</string>
+    <string name="main_body_manual">Use estes botões para verificar se o Android permite que esta app auxiliar mude o Wi-Fi. A mudança automática é configurada no AutoHotspot.</string>
+    <string name="main_title_compatibility">Porque é que o Android mostra um aviso</string>
+    <string name="main_body_compatibility">Esta app auxiliar usa um alvo de compatibilidade do Android mais antigo para mudar o Wi-Fi. Esse alvo pode fazer o Android mostrar um aviso de app antiga.</string>
+    <string name="main_title_transparency">Código aberto e local</string>
+    <string name="main_body_transparency">Os pedidos de controlo do Wi-Fi são processados no seu dispositivo. O WiFiControl não pede acesso à internet. Todo o código-fonte é público no GitHub para que o possa rever.</string>
+    <string name="main_button_source">Rever o código-fonte no GitHub</string>
+    <string name="main_status_enabled">O Wi-Fi está ligado</string>
+    <string name="main_status_disabled">O Wi-Fi está desligado</string>
+    <string name="main_status_changing">A mudar o Wi-Fi…</string>
+    <string name="main_error_change_rejected">O Android não conseguiu mudar o Wi-Fi neste momento.</string>
+    <string name="main_error_open_source">Não há nenhuma app disponível para abrir o GitHub.</string>
+    <string name="main_version">Versão: %1$s (%2$d)</string>
 </resources>

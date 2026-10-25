@@ -5,4 +5,19 @@
     <string name="main_label_app_description">Ta aplikacija vam omogoča, da omogočite in onemogočite WiFi.</string>
     <string name="main_label_compatibility_description">Vsebuje staro različico združljivosti, ki omogoča delo z wifi.</string>
     <string name="main_label_github_description">Vir kode je na voljo na GitHubu, kjer prenesete aplikacijo.</string>
+    <string name="main_title_automatic">Samodejni Wi-Fi z AutoHotspot</string>
+    <string name="main_body_automatic">Ko se zaženejo pravila, ki ste jih nastavili, AutoHotspot pošlje temu pomočniku lokalne zahteve za vklop ali izklop Wi-Fi. WiFiControl naj ostane nameščen. Tega zaslona ni treba imeti odprtega.</string>
+    <string name="main_title_manual">Ročno preizkusite Wi-Fi</string>
+    <string name="main_body_manual">S temi gumbi preverite, ali Android temu pomočniku dovoli preklapljanje Wi-Fi. Samodejno preklapljanje nastavite v AutoHotspot.</string>
+    <string name="main_title_compatibility">Zakaj Android prikaže opozorilo</string>
+    <string name="main_body_compatibility">Ta pomočnik za preklapljanje Wi-Fi uporablja starejši cilj združljivosti Androida. Zato lahko Android prikaže opozorilo o starejši aplikaciji.</string>
+    <string name="main_title_transparency">Odprta koda in lokalno delovanje</string>
+    <string name="main_body_transparency">Zahteve za upravljanje Wi-Fi se obdelajo v vaši napravi. WiFiControl ne zahteva dostopa do interneta. Vsa izvorna koda je javno dostopna na GitHubu, da jo lahko pregledate.</string>
+    <string name="main_button_source">Oglejte si izvorno kodo na GitHubu</string>
+    <string name="main_status_enabled">Wi-Fi je vklopljen</string>
+    <string name="main_status_disabled">Wi-Fi je izklopljen</string>
+    <string name="main_status_changing">Preklapljanje Wi-Fi…</string>
+    <string name="main_error_change_rejected">Android trenutno ni mogel spremeniti Wi-Fi.</string>
+    <string name="main_error_open_source">Ni aplikacije za odpiranje GitHuba.</string>
+    <string name="main_version">Različica: %1$s (%2$d)</string>
 </resources>

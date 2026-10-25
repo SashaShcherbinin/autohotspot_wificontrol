@@ -1,5 +1,25 @@
 [
     {
+        "key": "main_body_automatic",
+        "language": "en",
+        "value": "AutoHotspot sends local requests to this helper to turn Wi-Fi on or off when your configured rules run. Keep WiFiControl installed. You do not need to keep this screen open."
+    },
+    {
+        "key": "main_body_compatibility",
+        "language": "en",
+        "value": "This helper uses an older Android compatibility target to switch Wi-Fi. That target can cause Android to show an older-app warning."
+    },
+    {
+        "key": "main_body_manual",
+        "language": "en",
+        "value": "Use these buttons to check that Android allows this helper to switch Wi-Fi. Automatic switching is configured in AutoHotspot."
+    },
+    {
+        "key": "main_body_transparency",
+        "language": "en",
+        "value": "Wi-Fi control requests are handled on your device. WiFiControl does not request internet access. All source code is public on GitHub for you to review."
+    },
+    {
         "key": "main_button_disable_wifi",
         "language": "en",
         "value": "Disable WiFi"
@@ -8,6 +28,21 @@
         "key": "main_button_enable_wifi",
         "language": "en",
         "value": "Enable WiFi"
+    },
+    {
+        "key": "main_button_source",
+        "language": "en",
+        "value": "Review source code on GitHub"
+    },
+    {
+        "key": "main_error_change_rejected",
+        "language": "en",
+        "value": "Android could not change Wi-Fi right now."
+    },
+    {
+        "key": "main_error_open_source",
+        "language": "en",
+        "value": "No app is available to open GitHub."
     },
     {
         "key": "main_label_app_description",
@@ -23,5 +58,45 @@
         "key": "main_label_github_description",
         "language": "en",
         "value": "The code source is available on GitHub, where you download the app."
+    },
+    {
+        "key": "main_status_changing",
+        "language": "en",
+        "value": "Changing Wi-Fi…"
+    },
+    {
+        "key": "main_status_disabled",
+        "language": "en",
+        "value": "Wi-Fi is off"
+    },
+    {
+        "key": "main_status_enabled",
+        "language": "en",
+        "value": "Wi-Fi is on"
+    },
+    {
+        "key": "main_title_automatic",
+        "language": "en",
+        "value": "Automatic Wi-Fi with AutoHotspot"
+    },
+    {
+        "key": "main_title_compatibility",
+        "language": "en",
+        "value": "Why Android shows a warning"
+    },
+    {
+        "key": "main_title_manual",
+        "language": "en",
+        "value": "Test Wi-Fi manually"
+    },
+    {
+        "key": "main_title_transparency",
+        "language": "en",
+        "value": "Open source and local"
+    },
+    {
+        "key": "main_version",
+        "language": "en",
+        "value": "Version: %1$s (%2$d)"
     }
 ]

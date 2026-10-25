@@ -5,4 +5,19 @@
     <string name="main_label_app_description">このアプリを使用すると、WiFi を有効または無効にすることができます。</string>
     <string name="main_label_compatibility_description">Wi-Fi で動作できるように、古い互換性バージョンが含まれています。</string>
     <string name="main_label_github_description">コード ソースは、アプリをダウンロードする GitHub で入手できます。</string>
+    <string name="main_title_automatic">AutoHotspot で Wi-Fi を自動切り替え</string>
+    <string name="main_body_automatic">設定したルールが実行されると、AutoHotspot はこのヘルパーにローカルのリクエストを送り、Wi-Fi をオンまたはオフにします。WiFiControl はインストールしたままにしてください。この画面を開いておく必要はありません。</string>
+    <string name="main_title_manual">Wi-Fi を手動でテスト</string>
+    <string name="main_body_manual">これらのボタンで、Android がこのヘルパーに Wi-Fi の切り替えを許可しているか確認できます。自動切り替えは AutoHotspot で設定します。</string>
+    <string name="main_title_compatibility">Android が警告を表示する理由</string>
+    <string name="main_body_compatibility">このヘルパーは Wi-Fi を切り替えるために古い Android 互換性ターゲットを使用しています。そのため、Android が古いアプリであるという警告を表示することがあります。</string>
+    <string name="main_title_transparency">オープンソースで端末内で動作</string>
+    <string name="main_body_transparency">Wi-Fi 制御のリクエストはお使いの端末内で処理されます。WiFiControl はインターネットへのアクセスを要求しません。ソースコードはすべて GitHub で公開されており、確認できます。</string>
+    <string name="main_button_source">GitHub でソースコードを確認</string>
+    <string name="main_status_enabled">Wi-Fi はオンです</string>
+    <string name="main_status_disabled">Wi-Fi はオフです</string>
+    <string name="main_status_changing">Wi-Fi を切り替えています…</string>
+    <string name="main_error_change_rejected">Android は現在 Wi-Fi を変更できませんでした。</string>
+    <string name="main_error_open_source">GitHub を開けるアプリがありません。</string>
+    <string name="main_version">バージョン: %1$s (%2$d)</string>
 </resources>

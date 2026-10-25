@@ -5,4 +5,19 @@
     <string name="main_label_app_description">Bu uygulama WiFi’yi etkinleştirmenizi ve devre dışı bırakmanızı sağlar.</string>
     <string name="main_label_compatibility_description">Wifi ile çalışmayı mümkün kılmak için eski bir uyumluluk sürümü içerir.</string>
     <string name="main_label_github_description">Kod kaynağı, uygulamayı indireceğiniz GitHub’da mevcuttur.</string>
+    <string name="main_title_automatic">AutoHotspot ile otomatik Wi-Fi</string>
+    <string name="main_body_automatic">Ayarladığınız kurallar çalıştığında AutoHotspot, Wi-Fi\'yi açmak veya kapatmak için bu yardımcı uygulamaya yerel istekler gönderir. WiFiControl\'ü yüklü tutun. Bu ekranı açık tutmanız gerekmez.</string>
+    <string name="main_title_manual">Wi-Fi\'yi elle test edin</string>
+    <string name="main_body_manual">Android\'in bu yardımcı uygulamanın Wi-Fi\'yi değiştirmesine izin verip vermediğini bu düğmelerle kontrol edin. Otomatik geçiş AutoHotspot\'ta ayarlanır.</string>
+    <string name="main_title_compatibility">Android neden uyarı gösteriyor</string>
+    <string name="main_body_compatibility">Bu yardımcı uygulama Wi-Fi\'yi değiştirmek için daha eski bir Android uyumluluk hedefi kullanır. Bu hedef, Android\'in eski uygulama uyarısı göstermesine neden olabilir.</string>
+    <string name="main_title_transparency">Açık kaynak ve yerel</string>
+    <string name="main_body_transparency">Wi-Fi kontrol istekleri cihazınızda işlenir. WiFiControl internet erişimi istemez. Tüm kaynak kodu incelemeniz için GitHub\'da herkese açıktır.</string>
+    <string name="main_button_source">Kaynak kodunu GitHub\'da inceleyin</string>
+    <string name="main_status_enabled">Wi-Fi açık</string>
+    <string name="main_status_disabled">Wi-Fi kapalı</string>
+    <string name="main_status_changing">Wi-Fi değiştiriliyor…</string>
+    <string name="main_error_change_rejected">Android şu anda Wi-Fi\'yi değiştiremedi.</string>
+    <string name="main_error_open_source">GitHub\'ı açacak uygulama yok.</string>
+    <string name="main_version">Sürüm: %1$s (%2$d)</string>
 </resources>

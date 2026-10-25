@@ -5,4 +5,19 @@
     <string name="main_label_app_description">یہ ایپ آپ کو وائی فائی کو فعال اور غیر فعال کرنے کی اجازت دیتی ہے۔</string>
     <string name="main_label_compatibility_description">وائی فائی کے ساتھ کام کرنا ممکن بنانے کے لیے اس میں مطابقت پذیری کا پرانا ورژن ہے۔</string>
     <string name="main_label_github_description">کوڈ کا ذریعہ GitHub پر دستیاب ہے، جہاں آپ ایپ ڈاؤن لوڈ کرتے ہیں۔</string>
+    <string name="main_title_automatic">AutoHotspot کے ساتھ خودکار Wi-Fi</string>
+    <string name="main_body_automatic">جب آپ کے سیٹ کیے گئے اصول چلتے ہیں تو AutoHotspot اس مددگار ایپ کو Wi-Fi آن یا آف کرنے کے لیے مقامی درخواستیں بھیجتا ہے۔ WiFiControl کو انسٹال رہنے دیں۔ اس اسکرین کو کھلا رکھنے کی ضرورت نہیں ہے۔</string>
+    <string name="main_title_manual">Wi-Fi کو دستی طور پر جانچیں</string>
+    <string name="main_body_manual">ان بٹنوں سے جانچیں کہ Android اس مددگار ایپ کو Wi-Fi بدلنے کی اجازت دیتا ہے یا نہیں۔ خودکار تبدیلی AutoHotspot میں سیٹ کی جاتی ہے۔</string>
+    <string name="main_title_compatibility">Android انتباہ کیوں دکھاتا ہے</string>
+    <string name="main_body_compatibility">یہ مددگار ایپ Wi-Fi بدلنے کے لیے Android کا پرانا مطابقت ہدف استعمال کرتی ہے۔ اس کی وجہ سے Android پرانی ایپ کا انتباہ دکھا سکتا ہے۔</string>
+    <string name="main_title_transparency">اوپن سورس اور مقامی</string>
+    <string name="main_body_transparency">Wi-Fi کنٹرول کی درخواستیں آپ کے آلے پر ہی پراسیس ہوتی ہیں۔ WiFiControl انٹرنیٹ تک رسائی نہیں مانگتا۔ تمام سورس کوڈ GitHub پر عوامی طور پر دستیاب ہے تاکہ آپ اس کا جائزہ لے سکیں۔</string>
+    <string name="main_button_source">GitHub پر سورس کوڈ دیکھیں</string>
+    <string name="main_status_enabled">Wi-Fi آن ہے</string>
+    <string name="main_status_disabled">Wi-Fi آف ہے</string>
+    <string name="main_status_changing">Wi-Fi تبدیل ہو رہا ہے…</string>
+    <string name="main_error_change_rejected">Android ابھی Wi-Fi تبدیل نہیں کر سکا۔</string>
+    <string name="main_error_open_source">GitHub کھولنے کے لیے کوئی ایپ دستیاب نہیں۔</string>
+    <string name="main_version">ورژن: %1$s (%2$d)</string>
 </resources>

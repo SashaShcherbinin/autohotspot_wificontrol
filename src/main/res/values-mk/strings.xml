@@ -5,4 +5,19 @@
     <string name="main_label_app_description">Оваа апликација ви овозможува да овозможите и оневозможите WiFi.</string>
     <string name="main_label_compatibility_description">Содржи стара верзија за компатибилност за да може да се работи со WiFi.</string>
     <string name="main_label_github_description">Изворот на кодот е достапен на GitHub, каде што ја преземате апликацијата.</string>
+    <string name="main_title_automatic">Автоматски Wi-Fi со AutoHotspot</string>
+    <string name="main_body_automatic">Кога ќе се извршат правилата што ги поставивте, AutoHotspot испраќа локални барања до овој помошник да го вклучи или исклучи Wi-Fi. Оставете го WiFiControl инсталиран. Не мора овој екран да остане отворен.</string>
+    <string name="main_title_manual">Рачно тестирање на Wi-Fi</string>
+    <string name="main_body_manual">Со овие копчиња проверете дали Android му дозволува на овој помошник да го менува Wi-Fi. Автоматското менување се поставува во AutoHotspot.</string>
+    <string name="main_title_compatibility">Зошто Android прикажува предупредување</string>
+    <string name="main_body_compatibility">Овој помошник користи постара цел за компатибилност на Android за менување на Wi-Fi. Поради тоа Android може да прикаже предупредување за постара апликација.</string>
+    <string name="main_title_transparency">Отворен код и локална работа</string>
+    <string name="main_body_transparency">Барањата за управување со Wi-Fi се обработуваат на вашиот уред. WiFiControl не бара пристап до интернет. Целиот изворен код е јавен на GitHub за да го прегледате.</string>
+    <string name="main_button_source">Прегледајте го изворниот код на GitHub</string>
+    <string name="main_status_enabled">Wi-Fi е вклучен</string>
+    <string name="main_status_disabled">Wi-Fi е исклучен</string>
+    <string name="main_status_changing">Се менува Wi-Fi…</string>
+    <string name="main_error_change_rejected">Android не можеше да го промени Wi-Fi во моментов.</string>
+    <string name="main_error_open_source">Нема апликација за отворање на GitHub.</string>
+    <string name="main_version">Верзија: %1$s (%2$d)</string>
 </resources>

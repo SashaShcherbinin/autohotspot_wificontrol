@@ -5,4 +5,19 @@
     <string name="main_label_app_description">Это приложение позволяет включать и отключать Wi-Fi.</string>
     <string name="main_label_compatibility_description">Он содержит старую версию совместимости, позволяющую работать с Wi-Fi.</string>
     <string name="main_label_github_description">Исходный код доступен на GitHub, где вы загружаете приложение.</string>
+    <string name="main_title_automatic">Автоматический Wi-Fi с AutoHotspot</string>
+    <string name="main_body_automatic">Когда срабатывают настроенные вами правила, AutoHotspot отправляет этому помощнику локальные запросы на включение или выключение Wi-Fi. Не удаляйте WiFiControl. Держать этот экран открытым не нужно.</string>
+    <string name="main_title_manual">Проверить Wi-Fi вручную</string>
+    <string name="main_body_manual">С помощью этих кнопок проверьте, разрешает ли Android этому помощнику переключать Wi-Fi. Автоматическое переключение настраивается в AutoHotspot.</string>
+    <string name="main_title_compatibility">Почему Android показывает предупреждение</string>
+    <string name="main_body_compatibility">Для переключения Wi-Fi этот помощник использует более старый уровень совместимости Android. Из-за этого Android может показать предупреждение об устаревшем приложении.</string>
+    <string name="main_title_transparency">Открытый код и локальная работа</string>
+    <string name="main_body_transparency">Запросы на управление Wi-Fi обрабатываются на вашем устройстве. WiFiControl не запрашивает доступ к интернету. Весь исходный код открыт на GitHub, его можно проверить.</string>
+    <string name="main_button_source">Посмотреть исходный код на GitHub</string>
+    <string name="main_status_enabled">Wi-Fi включён</string>
+    <string name="main_status_disabled">Wi-Fi выключен</string>
+    <string name="main_status_changing">Переключение Wi-Fi…</string>
+    <string name="main_error_change_rejected">Android сейчас не удалось изменить Wi-Fi.</string>
+    <string name="main_error_open_source">Нет приложения, чтобы открыть GitHub.</string>
+    <string name="main_version">Версия: %1$s (%2$d)</string>
 </resources>

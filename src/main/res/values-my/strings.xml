@@ -5,4 +5,19 @@
     <string name="main_label_app_description">ဤအက်ပ်သည် သင့်အား WiFi ကိုဖွင့်ရန်နှင့်ပိတ်ရန်ခွင့်ပြုသည်။</string>
     <string name="main_label_compatibility_description">wifi ဖြင့်အလုပ်လုပ်နိုင်စေရန် ၎င်းတွင် တွဲဖက်အသုံးပြုနိုင်သော ဗားရှင်းဟောင်းတစ်ခုပါရှိသည်။</string>
     <string name="main_label_github_description">ကုဒ်ရင်းမြစ်ကို သင်အက်ပ်ကိုဒေါင်းလုဒ်လုပ်သည့် GitHub တွင် ရနိုင်သည်။</string>
+    <string name="main_title_automatic">AutoHotspot ဖြင့် Wi-Fi ကို အလိုအလျောက်</string>
+    <string name="main_body_automatic">သင်သတ်မှတ်ထားသော စည်းမျဉ်းများ အလုပ်လုပ်သည့်အခါ AutoHotspot သည် Wi-Fi ဖွင့်ရန် သို့မဟုတ် ပိတ်ရန် ဤအကူအက်ပ်သို့ စက်တွင်းတောင်းဆိုချက်များ ပို့ပါသည်။ WiFiControl ကို ထည့်သွင်းထားပါ။ ဤစခရင်ကို ဖွင့်ထားရန် မလိုပါ။</string>
+    <string name="main_title_manual">Wi-Fi ကို ကိုယ်တိုင် စမ်းသပ်ရန်</string>
+    <string name="main_body_manual">Android က ဤအကူအက်ပ်ကို Wi-Fi ပြောင်းခွင့်ပြုထားခြင်း ရှိမရှိ ဤခလုတ်များဖြင့် စစ်ဆေးပါ။ အလိုအလျောက်ပြောင်းခြင်းကို AutoHotspot တွင် သတ်မှတ်ပါသည်။</string>
+    <string name="main_title_compatibility">Android က သတိပေးချက် ဘာကြောင့်ပြသလဲ</string>
+    <string name="main_body_compatibility">ဤအကူအက်ပ်သည် Wi-Fi ပြောင်းရန် Android ၏ ယခင်ကိုက်ညီမှုပစ်မှတ်ကို အသုံးပြုသည်။ ထို့ကြောင့် Android က အက်ပ်ဟောင်းဖြစ်ကြောင်း သတိပေးချက် ပြနိုင်ပါသည်။</string>
+    <string name="main_title_transparency">Open source နှင့် စက်တွင်း</string>
+    <string name="main_body_transparency">Wi-Fi ထိန်းချုပ်မှု တောင်းဆိုချက်များကို သင့်စက်ပေါ်တွင်သာ ကိုင်တွယ်ပါသည်။ WiFiControl သည် အင်တာနက်အသုံးပြုခွင့် မတောင်းပါ။ ရင်းမြစ်ကုဒ်အားလုံးကို GitHub တွင် လူတိုင်းကြည့်ရှုနိုင်ပါသည်။</string>
+    <string name="main_button_source">GitHub တွင် ရင်းမြစ်ကုဒ်ကို ကြည့်ရန်</string>
+    <string name="main_status_enabled">Wi-Fi ဖွင့်ထားသည်</string>
+    <string name="main_status_disabled">Wi-Fi ပိတ်ထားသည်</string>
+    <string name="main_status_changing">Wi-Fi ပြောင်းနေသည်…</string>
+    <string name="main_error_change_rejected">Android က ယခု Wi-Fi ကို မပြောင်းနိုင်ပါ။</string>
+    <string name="main_error_open_source">GitHub ဖွင့်ရန် အက်ပ်မရှိပါ။</string>
+    <string name="main_version">ဗားရှင်း: %1$s (%2$d)</string>
 </resources>

@@ -5,4 +5,19 @@
     <string name="main_label_app_description">Denne app giver dig mulighed for at aktivere og deaktivere WiFi.</string>
     <string name="main_label_compatibility_description">Den indeholder en gammel kompatibilitetsversion for at gøre det muligt at arbejde med wifi.</string>
     <string name="main_label_github_description">Kodekilden er tilgængelig på GitHub, hvor du downloader appen.</string>
+    <string name="main_title_automatic">Automatisk Wi-Fi med AutoHotspot</string>
+    <string name="main_body_automatic">AutoHotspot sender lokale anmodninger til denne hjælper for at slå Wi-Fi til eller fra, når dine opsatte regler kører. Behold WiFiControl installeret. Du behøver ikke at holde denne skærm åben.</string>
+    <string name="main_title_manual">Test Wi-Fi manuelt</string>
+    <string name="main_body_manual">Brug disse knapper til at tjekke, at Android tillader denne hjælper at skifte Wi-Fi. Automatisk skift opsættes i AutoHotspot.</string>
+    <string name="main_title_compatibility">Hvorfor Android viser en advarsel</string>
+    <string name="main_body_compatibility">Denne hjælper bruger et ældre Android-kompatibilitetsmål til at skifte Wi-Fi. Det mål kan få Android til at vise en advarsel om en ældre app.</string>
+    <string name="main_title_transparency">Open source og lokal</string>
+    <string name="main_body_transparency">Anmodninger om Wi-Fi-styring håndteres på din enhed. WiFiControl beder ikke om internetadgang. Al kildekode er offentlig på GitHub, så du kan gennemgå den.</string>
+    <string name="main_button_source">Se kildekoden på GitHub</string>
+    <string name="main_status_enabled">Wi-Fi er slået til</string>
+    <string name="main_status_disabled">Wi-Fi er slået fra</string>
+    <string name="main_status_changing">Skifter Wi-Fi…</string>
+    <string name="main_error_change_rejected">Android kunne ikke ændre Wi-Fi lige nu.</string>
+    <string name="main_error_open_source">Der er ingen app til at åbne GitHub.</string>
+    <string name="main_version">Version: %1$s (%2$d)</string>
 </resources>

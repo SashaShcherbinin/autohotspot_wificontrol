@@ -5,4 +5,19 @@
     <string name="main_label_app_description">Programu hii hukuruhusu kuwezesha na kuzima WiFi.</string>
     <string name="main_label_compatibility_description">Ina toleo la zamani la utangamano ili kufanya iwezekanavyo kufanya kazi na wifi.</string>
     <string name="main_label_github_description">Chanzo cha msimbo kinapatikana kwenye GitHub, ambapo unapakua programu.</string>
+    <string name="main_title_automatic">Wi-Fi ya kiotomatiki na AutoHotspot</string>
+    <string name="main_body_automatic">AutoHotspot hutuma maombi ya ndani kwa programu hii saidizi ili kuwasha au kuzima Wi-Fi sheria ulizoweka zinapotekelezwa. Usiondoe WiFiControl. Huhitaji kuacha skrini hii wazi.</string>
+    <string name="main_title_manual">Jaribu Wi-Fi mwenyewe</string>
+    <string name="main_body_manual">Tumia vitufe hivi kukagua kama Android inaruhusu programu hii saidizi kubadilisha Wi-Fi. Ubadilishaji wa kiotomatiki huwekwa katika AutoHotspot.</string>
+    <string name="main_title_compatibility">Kwa nini Android inaonyesha onyo</string>
+    <string name="main_body_compatibility">Programu hii saidizi hutumia lengo la zamani la uoanifu wa Android ili kubadilisha Wi-Fi. Lengo hilo linaweza kufanya Android ionyeshe onyo la programu ya zamani.</string>
+    <string name="main_title_transparency">Chanzo huria na ya ndani</string>
+    <string name="main_body_transparency">Maombi ya kudhibiti Wi-Fi hushughulikiwa kwenye kifaa chako. WiFiControl haiombi ufikiaji wa intaneti. Msimbo wote wa chanzo uko wazi kwenye GitHub ili uukague.</string>
+    <string name="main_button_source">Kagua msimbo wa chanzo kwenye GitHub</string>
+    <string name="main_status_enabled">Wi-Fi imewashwa</string>
+    <string name="main_status_disabled">Wi-Fi imezimwa</string>
+    <string name="main_status_changing">Inabadilisha Wi-Fi…</string>
+    <string name="main_error_change_rejected">Android haikuweza kubadilisha Wi-Fi kwa sasa.</string>
+    <string name="main_error_open_source">Hakuna programu ya kufungua GitHub.</string>
+    <string name="main_version">Toleo: %1$s (%2$d)</string>
 </resources>

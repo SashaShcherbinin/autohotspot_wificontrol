@@ -5,4 +5,19 @@
     <string name="main_label_app_description">WiFiని ఎనేబుల్ మరియు డిసేబుల్ చేయడానికి ఈ యాప్ మిమ్మల్ని అనుమతిస్తుంది.</string>
     <string name="main_label_compatibility_description">ఇది wifiతో పని చేయడం సాధ్యం చేయడానికి పాత అనుకూలత సంస్కరణను కలిగి ఉంది.</string>
     <string name="main_label_github_description">మీరు యాప్‌ని డౌన్‌లోడ్ చేసే GitHubలో కోడ్ మూలం అందుబాటులో ఉంది.</string>
+    <string name="main_title_automatic">AutoHotspotతో ఆటోమేటిక్ Wi-Fi</string>
+    <string name="main_body_automatic">మీరు సెట్ చేసిన నియమాలు అమలైనప్పుడు, Wi-Fiని ఆన్ లేదా ఆఫ్ చేయడానికి AutoHotspot ఈ సహాయక యాప్‌కు లోకల్ అభ్యర్థనలు పంపుతుంది. WiFiControlను ఇన్‌స్టాల్ చేసి ఉంచండి. ఈ స్క్రీన్‌ను తెరిచి ఉంచాల్సిన అవసరం లేదు.</string>
+    <string name="main_title_manual">Wi-Fiని మాన్యువల్‌గా పరీక్షించండి</string>
+    <string name="main_body_manual">ఈ సహాయక యాప్ Wi-Fiని మార్చడానికి Android అనుమతిస్తుందో లేదో ఈ బటన్‌లతో తనిఖీ చేయండి. ఆటోమేటిక్ మార్పు AutoHotspotలో సెట్ చేయబడుతుంది.</string>
+    <string name="main_title_compatibility">Android ఎందుకు హెచ్చరిక చూపుతుంది</string>
+    <string name="main_body_compatibility">Wi-Fiని మార్చడానికి ఈ సహాయక యాప్ పాత Android అనుకూలత లక్ష్యాన్ని ఉపయోగిస్తుంది. దాని వల్ల Android పాత యాప్ హెచ్చరికను చూపవచ్చు.</string>
+    <string name="main_title_transparency">ఓపెన్ సోర్స్, పరికరంలోనే</string>
+    <string name="main_body_transparency">Wi-Fi నియంత్రణ అభ్యర్థనలు మీ పరికరంలోనే నిర్వహించబడతాయి. WiFiControl ఇంటర్నెట్ యాక్సెస్ అడగదు. మొత్తం సోర్స్ కోడ్ మీరు సమీక్షించడానికి GitHubలో పబ్లిక్‌గా ఉంది.</string>
+    <string name="main_button_source">GitHubలో సోర్స్ కోడ్ చూడండి</string>
+    <string name="main_status_enabled">Wi-Fi ఆన్‌లో ఉంది</string>
+    <string name="main_status_disabled">Wi-Fi ఆఫ్‌లో ఉంది</string>
+    <string name="main_status_changing">Wi-Fi మారుస్తోంది…</string>
+    <string name="main_error_change_rejected">Android ప్రస్తుతం Wi-Fiని మార్చలేకపోయింది.</string>
+    <string name="main_error_open_source">GitHubని తెరవడానికి యాప్ ఏదీ లేదు.</string>
+    <string name="main_version">వెర్షన్: %1$s (%2$d)</string>
 </resources>

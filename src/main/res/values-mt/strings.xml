@@ -5,4 +5,19 @@
     <string name="main_label_app_description">Din l-app tippermettilek li tattiva u tiddiżattiva l-WiFi.</string>
     <string name="main_label_compatibility_description">Fiha verżjoni antika ta ’kompatibilità biex tagħmilha possibbli li taħdem bil-wifi.</string>
     <string name="main_label_github_description">Is-sors tal-kodiċi huwa disponibbli fuq GitHub, fejn tniżżel l-app.</string>
+    <string name="main_title_automatic">Wi-Fi awtomatiku b\'AutoHotspot</string>
+    <string name="main_body_automatic">AutoHotspot jibgħat talbiet lokali lil din l-app helper biex tixgħel jew titfi l-Wi-Fi meta jaħdmu r-regoli li ssettjajt. Żomm WiFiControl installat. M\'għandekx bżonn iżżomm dan l-iskrin miftuħ.</string>
+    <string name="main_title_manual">Ittestja l-Wi-Fi manwalment</string>
+    <string name="main_body_manual">Uża dawn il-buttuni biex tiċċekkja li Android jippermetti lil din l-app helper taqleb il-Wi-Fi. It-tqassim awtomatiku jiġi ssettjat f\'AutoHotspot.</string>
+    <string name="main_title_compatibility">Għaliex Android juri twissija</string>
+    <string name="main_body_compatibility">Din l-app helper tuża mira ta\' kompatibbiltà ta\' Android aktar antika biex taqleb il-Wi-Fi. Dik il-mira tista\' ġġiegħel lil Android juri twissija ta\' app antika.</string>
+    <string name="main_title_transparency">Sors miftuħ u lokali</string>
+    <string name="main_body_transparency">It-talbiet għall-kontroll tal-Wi-Fi jiġu pproċessati fuq it-tagħmir tiegħek. WiFiControl ma jitlobx aċċess għall-internet. Il-kodiċi sors kollu huwa pubbliku fuq GitHub biex tirrevedih.</string>
+    <string name="main_button_source">Irrevedi l-kodiċi sors fuq GitHub</string>
+    <string name="main_status_enabled">Il-Wi-Fi mixgħul</string>
+    <string name="main_status_disabled">Il-Wi-Fi mitfi</string>
+    <string name="main_status_changing">Qed jinbidel il-Wi-Fi…</string>
+    <string name="main_error_change_rejected">Android ma setax ibiddel il-Wi-Fi bħalissa.</string>
+    <string name="main_error_open_source">M\'hemm l-ebda app disponibbli biex tiftaħ GitHub.</string>
+    <string name="main_version">Verżjoni: %1$s (%2$d)</string>
 </resources>

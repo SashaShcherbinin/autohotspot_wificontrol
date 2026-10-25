@@ -5,4 +5,19 @@
     <string name="main_label_app_description">Ova aplikacija vam omogućuje da omogućite i onemogućite WiFi.</string>
     <string name="main_label_compatibility_description">Sadrži staru kompatibilnu verziju koja omogućuje rad s wifi.</string>
     <string name="main_label_github_description">Izvor koda dostupan je na GitHubu, gdje možete preuzeti aplikaciju.</string>
+    <string name="main_title_automatic">Automatski Wi-Fi uz AutoHotspot</string>
+    <string name="main_body_automatic">AutoHotspot šalje lokalne zahtjeve ovom pomoćniku da uključi ili isključi Wi-Fi kad se pokrenu pravila koja ste postavili. Ostavite WiFiControl instaliran. Ovaj zaslon ne mora ostati otvoren.</string>
+    <string name="main_title_manual">Ručno testiranje Wi-Fija</string>
+    <string name="main_body_manual">Ovim gumbima provjerite dopušta li Android ovom pomoćniku mijenjati Wi-Fi. Automatsko prebacivanje postavlja se u AutoHotspotu.</string>
+    <string name="main_title_compatibility">Zašto Android prikazuje upozorenje</string>
+    <string name="main_body_compatibility">Ovaj pomoćnik za prebacivanje Wi-Fija koristi stariji cilj kompatibilnosti Androida. Zbog toga Android može prikazati upozorenje o starijoj aplikaciji.</string>
+    <string name="main_title_transparency">Otvoreni kod i lokalni rad</string>
+    <string name="main_body_transparency">Zahtjevi za upravljanje Wi-Fijem obrađuju se na vašem uređaju. WiFiControl ne traži pristup internetu. Cijeli izvorni kod javno je dostupan na GitHubu da ga pregledate.</string>
+    <string name="main_button_source">Pregledaj izvorni kod na GitHubu</string>
+    <string name="main_status_enabled">Wi-Fi je uključen</string>
+    <string name="main_status_disabled">Wi-Fi je isključen</string>
+    <string name="main_status_changing">Mijenjanje Wi-Fija…</string>
+    <string name="main_error_change_rejected">Android trenutačno nije mogao promijeniti Wi-Fi.</string>
+    <string name="main_error_open_source">Nema dostupne aplikacije za otvaranje GitHuba.</string>
+    <string name="main_version">Verzija: %1$s (%2$d)</string>
 </resources>

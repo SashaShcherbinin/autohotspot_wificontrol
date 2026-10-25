@@ -5,4 +5,19 @@
     <string name="main_label_app_description">Ligeann an aip seo duit wifi a chumasú agus a dhíchumasú.</string>
     <string name="main_label_compatibility_description">Tá seanleagan comhoiriúnachta ann chun gur féidir oibriú le wifi.</string>
     <string name="main_label_github_description">Tá foinse an chóid ar fáil ar GitHub, áit a n-íoslódálann tú an aip.</string>
+    <string name="main_title_automatic">Wi-Fi uathoibríoch le AutoHotspot</string>
+    <string name="main_body_automatic">Seolann AutoHotspot iarratais áitiúla chuig an aip chúnta seo chun Wi-Fi a chasadh air nó as nuair a ritheann na rialacha a shocraigh tú. Coinnigh WiFiControl suiteáilte. Ní gá an scáileán seo a choinneáil oscailte.</string>
+    <string name="main_title_manual">Tástáil Wi-Fi de láimh</string>
+    <string name="main_body_manual">Úsáid na cnaipí seo le seiceáil go gceadaíonn Android don aip chúnta seo Wi-Fi a athrú. Socraítear an t-athrú uathoibríoch in AutoHotspot.</string>
+    <string name="main_title_compatibility">Cén fáth a dtaispeánann Android rabhadh</string>
+    <string name="main_body_compatibility">Úsáideann an aip chúnta seo sprioc chomhoiriúnachta Android níos sine chun Wi-Fi a athrú. Is féidir leis an sprioc sin a chur faoi deara go dtaispeánfaidh Android rabhadh faoi aip níos sine.</string>
+    <string name="main_title_transparency">Foinse oscailte agus áitiúil</string>
+    <string name="main_body_transparency">Láimhseáiltear iarratais rialaithe Wi-Fi ar do ghléas. Ní iarrann WiFiControl rochtain ar an idirlíon. Tá an cód foinseach ar fad poiblí ar GitHub le go bhféadfaidh tú é a athbhreithniú.</string>
+    <string name="main_button_source">Athbhreithnigh an cód foinseach ar GitHub</string>
+    <string name="main_status_enabled">Tá Wi-Fi air</string>
+    <string name="main_status_disabled">Tá Wi-Fi as</string>
+    <string name="main_status_changing">Wi-Fi á athrú…</string>
+    <string name="main_error_change_rejected">Níorbh fhéidir le Android Wi-Fi a athrú faoi láthair.</string>
+    <string name="main_error_open_source">Níl aon aip ar fáil chun GitHub a oscailt.</string>
+    <string name="main_version">Leagan: %1$s (%2$d)</string>
 </resources>

@@ -5,4 +5,19 @@
     <string name="main_label_app_description">Ez az alkalmazás lehetővé teszi a WiFi engedélyezését és letiltását.</string>
     <string name="main_label_compatibility_description">Régi kompatibilitási verziót tartalmaz, hogy lehetővé tegye a wifivel való munkát.</string>
     <string name="main_label_github_description">A kódforrás elérhető a GitHubon, ahonnan letöltheti az alkalmazást.</string>
+    <string name="main_title_automatic">Automatikus Wi-Fi az AutoHotspottal</string>
+    <string name="main_body_automatic">Az AutoHotspot helyi kéréseket küld ennek a segédalkalmazásnak, hogy be- vagy kikapcsolja a Wi-Fit, amikor a beállított szabályok lefutnak. Hagyd telepítve a WiFiControlt. Ezt a képernyőt nem kell nyitva tartanod.</string>
+    <string name="main_title_manual">Wi-Fi kézi tesztelése</string>
+    <string name="main_body_manual">Ezekkel a gombokkal ellenőrizheted, hogy az Android engedi-e ennek a segédalkalmazásnak a Wi-Fi váltását. Az automatikus váltást az AutoHotspotban lehet beállítani.</string>
+    <string name="main_title_compatibility">Miért jelenít meg figyelmeztetést az Android</string>
+    <string name="main_body_compatibility">Ez a segédalkalmazás egy régebbi Android-kompatibilitási célszintet használ a Wi-Fi váltásához. Emiatt az Android figyelmeztethet, hogy régebbi alkalmazásról van szó.</string>
+    <string name="main_title_transparency">Nyílt forráskódú és helyi</string>
+    <string name="main_body_transparency">A Wi-Fi-vezérlési kéréseket az eszközöd dolgozza fel. A WiFiControl nem kér internet-hozzáférést. A teljes forráskód nyilvánosan elérhető a GitHubon, hogy átnézhesd.</string>
+    <string name="main_button_source">Forráskód megtekintése a GitHubon</string>
+    <string name="main_status_enabled">A Wi-Fi be van kapcsolva</string>
+    <string name="main_status_disabled">A Wi-Fi ki van kapcsolva</string>
+    <string name="main_status_changing">Wi-Fi váltása…</string>
+    <string name="main_error_change_rejected">Az Android most nem tudta módosítani a Wi-Fit.</string>
+    <string name="main_error_open_source">Nincs alkalmazás a GitHub megnyitásához.</string>
+    <string name="main_version">Verzió: %1$s (%2$d)</string>
 </resources>

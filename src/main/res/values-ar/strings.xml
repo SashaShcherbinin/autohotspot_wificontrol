@@ -5,4 +5,19 @@
     <string name="main_label_app_description">يتيح لك هذا التطبيق تمكين وتعطيل WiFi.</string>
     <string name="main_label_compatibility_description">أنه يحتوي على نسخة التوافق القديمة لتمكين العمل مع واي فاي.</string>
     <string name="main_label_github_description">مصدر الكود متاح على GitHub، حيث يمكنك تنزيل التطبيق.</string>
+    <string name="main_title_automatic">Wi-Fi تلقائي مع AutoHotspot</string>
+    <string name="main_body_automatic">يرسل AutoHotspot طلبات محلية إلى هذا المساعد لتشغيل Wi-Fi أو إيقافه عند تنفيذ القواعد التي ضبطتها. أبقِ WiFiControl مثبّتًا. لا تحتاج إلى إبقاء هذه الشاشة مفتوحة.</string>
+    <string name="main_title_manual">اختبار Wi-Fi يدويًا</string>
+    <string name="main_body_manual">استخدم هذه الأزرار للتحقق من أن Android يسمح لهذا المساعد بتبديل Wi-Fi. يتم ضبط التبديل التلقائي في AutoHotspot.</string>
+    <string name="main_title_compatibility">لماذا يعرض Android تحذيرًا</string>
+    <string name="main_body_compatibility">يستخدم هذا المساعد هدف توافق أقدم في Android لتبديل Wi-Fi. قد يجعل هذا الهدف Android يعرض تحذيرًا بأن التطبيق قديم.</string>
+    <string name="main_title_transparency">مفتوح المصدر ويعمل محليًا</string>
+    <string name="main_body_transparency">تتم معالجة طلبات التحكم في Wi-Fi على جهازك. لا يطلب WiFiControl الوصول إلى الإنترنت. كل الشيفرة المصدرية متاحة للعامة على GitHub لتراجعها.</string>
+    <string name="main_button_source">مراجعة الشيفرة المصدرية على GitHub</string>
+    <string name="main_status_enabled">Wi-Fi قيد التشغيل</string>
+    <string name="main_status_disabled">Wi-Fi متوقف</string>
+    <string name="main_status_changing">جارٍ تغيير Wi-Fi…</string>
+    <string name="main_error_change_rejected">تعذّر على Android تغيير Wi-Fi الآن.</string>
+    <string name="main_error_open_source">لا يوجد تطبيق متاح لفتح GitHub.</string>
+    <string name="main_version">الإصدار: %1$s (%2$d)</string>
 </resources>
