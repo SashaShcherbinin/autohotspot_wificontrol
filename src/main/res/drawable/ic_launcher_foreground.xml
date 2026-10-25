@@ -1,9 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
-    android:width="108dp" android:height="108dp"
-    android:viewportWidth="108" android:viewportHeight="108">
-    <path android:pathData="M27,46 Q54,20 81,46" android:fillColor="@android:color/transparent" android:strokeColor="#51AB60" android:strokeWidth="6" android:strokeLineCap="round" />
-    <path android:pathData="M35,55 Q54,36 73,55" android:fillColor="@android:color/transparent" android:strokeColor="#FF9814" android:strokeWidth="6" android:strokeLineCap="round" />
-    <path android:pathData="M44,64 Q54,52 64,64" android:fillColor="@android:color/transparent" android:strokeColor="#68CAD8" android:strokeWidth="6" android:strokeLineCap="round" />
-    <path android:pathData="M54,72 a4,4 0,1 0,0.01,0" android:fillColor="#51AB60" />
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="512"
+    android:viewportHeight="512">
+    <group
+        android:pivotX="256"
+        android:pivotY="256"
+        android:scaleX="0.67"
+        android:scaleY="0.67"
+        android:translateY="9">
+        <path
+            android:fillColor="#51AD5D"
+            android:pathData="M408.556 203.048C323.945 118.437 187.832 118.437 103.221 203.048C95.8634 210.406 84.8272 210.406 77.4698 203.048C70.1123 195.691 70.1123 184.655 77.4698 177.297C176.796 77.9713 336.82 77.9713 434.307 177.297C441.664 184.655 441.664 195.691 434.307 203.048C426.949 210.406 415.913 210.406 408.556 203.048Z" />
+        <path
+            android:fillColor="#FB9321"
+            android:pathData="M355.214 254.551C300.033 201.209 211.743 201.209 158.402 254.551C151.044 261.908 140.008 261.908 132.651 254.551C125.293 247.194 125.293 236.157 132.651 228.8C200.707 158.904 312.909 158.904 380.965 228.8C388.323 236.157 388.323 247.194 380.965 254.551C373.608 261.908 362.571 261.908 355.214 254.551Z" />
+        <path
+            android:fillColor="#68CDDD"
+            android:pathData="M303.712 309.732C277.961 283.981 237.494 283.981 213.583 309.732C206.225 317.089 195.189 317.089 187.832 309.732C180.474 302.374 180.474 289.499 187.832 282.141C226.458 239.836 290.836 239.836 329.463 282.141C336.82 289.499 336.82 302.374 329.463 309.732C322.105 317.089 311.069 317.089 303.712 309.732Z" />
+        <path
+            android:fillColor="#00000000"
+            android:pathData="M229.6,375.6A42,42 0,1 0,282.4 375.6"
+            android:strokeWidth="18"
+            android:strokeColor="#E53935"
+            android:strokeLineCap="round" />
+        <path
+            android:fillColor="#00000000"
+            android:pathData="M256,352V398"
+            android:strokeWidth="18"
+            android:strokeColor="#E53935"
+            android:strokeLineCap="round" />
+    </group>
 </vector>
