@@ -1,0 +1,9 @@
+<resources>
+    <style name="HelperTheme" parent="android:style/Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/helper_background</item>
+        <item name="android:statusBarColor">@color/helper_background</item>
+        <item name="android:navigationBarColor">@color/helper_background</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:colorAccent">@color/helper_primary</item>
+    </style>
+</resources>

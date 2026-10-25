@@ -1,12 +1,14 @@
+import com.android.build.api.dsl.ApplicationExtension
+import org.gradle.kotlin.dsl.configure
 import java.io.FileInputStream
 import java.util.Properties
 
 plugins {
-    id(libs.plugins.common.android.application.module)
+    id("com.android.application")
 }
 
 val localProperties = Properties().apply {
-    FileInputStream(rootProject.file("./signing.properties")).use { load(it) }
+    FileInputStream(rootProject.file("secret.properties")).use { load(it) }
 }
 
 val localStoreFile: String = localProperties.getProperty("storeFile")
@@ -14,14 +16,14 @@ val localStorePassword: String = localProperties.getProperty("storePassword")
 val localKeyAlias: String = localProperties.getProperty("keyAlias")
 val localKeyPassword: String = localProperties.getProperty("keyPassword")
 
-android {
+extensions.configure<ApplicationExtension> {
     namespace = "wifi.control"
     //noinspection GradleDependency - we need to support older devices
     compileSdk = 28
 
     signingConfigs {
         create("release") {
-            this.storeFile = file(localStoreFile)
+            this.storeFile = rootProject.file(localStoreFile)
             this.storePassword = localStorePassword
             this.keyAlias = localKeyAlias
             this.keyPassword = localKeyPassword
@@ -42,6 +44,7 @@ android {
     buildTypes {
         release {
             isMinifyEnabled = true
+            isShrinkResources = true
             signingConfig = signingConfigs.getByName("release")
             proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
         }
@@ -50,9 +53,6 @@ android {
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_1_8
         targetCompatibility = JavaVersion.VERSION_1_8
-    }
-    kotlinOptions {
-        jvmTarget = "1.8"
     }
 }
 

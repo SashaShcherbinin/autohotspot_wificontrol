@@ -1,59 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:gravity="center"
-    android:orientation="vertical"
-    android:padding="24dp">
-
-    <TextView
-        android:id="@+id/main_label_app_description"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:text="@string/main_label_app_description"
-        android:textSize="16sp" />
-
-    <Button
-        android:id="@+id/main_button_enable_wifi"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:text="@string/main_button_enable_wifi" />
-
-    <Button
-        android:id="@+id/main_button_disable_wifi"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:text="@string/main_button_disable_wifi" />
-
-    <TextView
-        android:id="@+id/main_label_compatibility_description"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:gravity="center"
-        android:text="@string/main_label_compatibility_description"
-        android:textSize="16sp" />
-
-    <TextView
-        android:id="@+id/main_label_github_description"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:gravity="center"
-        android:text="@string/main_label_github_description"
-        android:textSize="16sp" />
-
-    <TextView
-        android:id="@+id/main_label_app_version"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
-        android:gravity="center"
-        android:textSize="14sp"
-        tools:text="App version: 1.0" />
-
-</LinearLayout>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:fillViewport="true" android:background="@color/helper_background">
+    <LinearLayout android:id="@+id/main_content"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical" android:padding="24dp">
+        <ImageView android:layout_width="64dp" android:layout_height="64dp"
+            android:layout_gravity="center_horizontal" android:src="@mipmap/ic_launcher"
+            android:contentDescription="@null" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginTop="12dp" android:gravity="center" android:text="@string/app_name"
+            android:textSize="24sp" android:textStyle="bold" android:textColor="@color/helper_text" />
+        <TextView android:id="@+id/main_wifi_status"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginTop="12dp" android:gravity="center"
+            android:textSize="16sp" android:textStyle="bold" android:textColor="@color/helper_primary" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginTop="24dp" android:text="@string/main_title_automatic"
+            android:textSize="18sp" android:textStyle="bold" android:textColor="@color/helper_text" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginTop="6dp" android:text="@string/main_body_automatic"
+            android:textSize="15sp" android:textColor="@color/helper_secondary_text" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginTop="24dp" android:text="@string/main_title_manual"
+            android:textSize="18sp" android:textStyle="bold" android:textColor="@color/helper_text" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginTop="6dp" android:text="@string/main_body_manual"
+            android:textSize="15sp" android:textColor="@color/helper_secondary_text" />
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="horizontal" android:layout_marginTop="12dp">
+            <Button android:id="@+id/main_button_enable_wifi" android:layout_width="0dp"
+                android:layout_height="wrap_content" android:layout_weight="1" android:layout_marginEnd="6dp"
+                android:text="@string/main_button_enable_wifi" android:textAllCaps="false"
+                android:backgroundTint="@color/helper_primary" android:textColor="#FFFFFF" />
+            <Button android:id="@+id/main_button_disable_wifi" android:layout_width="0dp"
+                android:layout_height="wrap_content" android:layout_weight="1" android:layout_marginStart="6dp"
+                android:text="@string/main_button_disable_wifi" android:textAllCaps="false"
+                android:backgroundTint="@color/helper_primary" android:textColor="#FFFFFF" />
+        </LinearLayout>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginTop="24dp" android:text="@string/main_title_compatibility"
+            android:textSize="18sp" android:textStyle="bold" android:textColor="@color/helper_text" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginTop="6dp" android:text="@string/main_body_compatibility"
+            android:textSize="15sp" android:textColor="@color/helper_secondary_text" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginTop="24dp" android:text="@string/main_title_transparency"
+            android:textSize="18sp" android:textStyle="bold" android:textColor="@color/helper_text" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginTop="6dp" android:text="@string/main_body_transparency"
+            android:textSize="15sp" android:textColor="@color/helper_secondary_text" />
+        <Button android:id="@+id/main_button_source" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_marginTop="12dp"
+            android:text="@string/main_button_source" android:textAllCaps="false" />
+        <TextView android:id="@+id/main_label_app_version" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_marginTop="16dp"
+            android:gravity="center" android:textSize="13sp" android:textColor="@color/helper_secondary_text" />
+    </LinearLayout>
+</ScrollView>

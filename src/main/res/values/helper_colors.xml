@@ -1,0 +1,6 @@
+<resources>
+    <color name="helper_background">#FCFCFC</color>
+    <color name="helper_text">#2B2B2B</color>
+    <color name="helper_secondary_text">#5A5A5A</color>
+    <color name="helper_primary">#217445</color>
+</resources>

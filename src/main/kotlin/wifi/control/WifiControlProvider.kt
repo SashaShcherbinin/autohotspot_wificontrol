@@ -32,7 +32,7 @@ class WifiControlProvider : ContentProvider() {
             val versionCode = getAppVersionCode(context!!)
             val versionName = getAppVersionName(context!!)
             val cursor = MatrixCursor(arrayOf("version_code", "version_name"))
-            cursor.addRow(arrayOf(versionCode, versionName))
+            cursor.addRow(arrayOf<Any>(versionCode, versionName))
             return cursor
         }
         throw UnsupportedOperationException("Not yet implemented")
@@ -49,14 +49,12 @@ class WifiControlProvider : ContentProvider() {
         selectionArgs: Array<String>?,
     ): Int {
         val wifiManager = context?.applicationContext?.getSystemService(Context.WIFI_SERVICE) as WifiManager
-        wifiManager.isWifiEnabled = true
-        return 1
+        return if (wifiManager.setWifiEnabled(true)) 1 else 0
     }
 
     override fun delete(uri: Uri, selection: String?, selectionArgs: Array<String>?): Int {
         val wifiManager = context?.applicationContext?.getSystemService(Context.WIFI_SERVICE) as WifiManager
-        wifiManager.isWifiEnabled = false
-        return 1
+        return if (wifiManager.setWifiEnabled(false)) 1 else 0
     }
 
     override fun getType(uri: Uri): String? {
