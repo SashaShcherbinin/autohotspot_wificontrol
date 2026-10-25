@@ -6,7 +6,7 @@
 
     <permission
         android:name="com.wifi.auto.hotspot.wifi.control.PROVIDER"
-        android:protectionLevel="signature" />
+        android:protectionLevel="normal" />
 
     <application
         android:allowBackup="true"
@@ -26,8 +26,7 @@
         <provider
             android:name="WifiControlProvider"
             android:authorities="com.wifi.auto.hotspot.wifi.control.provider"
-            android:exported="true"
-            android:permission="com.wifi.auto.hotspot.wifi.control.PROVIDER" />
+            android:exported="true" />
     </application>
 
 </manifest>

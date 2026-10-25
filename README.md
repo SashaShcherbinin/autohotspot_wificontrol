@@ -1,6 +1,6 @@
 # How to install
 
-1. Download the latest APK from the [WiFiControl.1.0.0.apk](install/WiFiControl.1.0.0.apk)
+1. Download the latest APK from the [WiFiControl.1.1.3.apk](install/WiFiControl.1.1.3.apk)
 <img src="docks/img1.jpg" style="width:300px;"/>
 2. Open it in you android phone
 <img src="docks/img2.jpg" style="width:300px;"/>
