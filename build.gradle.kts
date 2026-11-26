@@ -35,8 +35,8 @@ extensions.configure<ApplicationExtension> {
         minSdk = 24
         //noinspection ExpiredTargetSdkVersion - we need to support older devices
         targetSdk = 28
-        versionCode = 6
-        versionName = "1.1.4"
+        versionCode = 7
+        versionName = "1.1.5"
     }
 
     lint.abortOnError = false
