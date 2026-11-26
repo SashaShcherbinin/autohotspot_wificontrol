@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="main_button_disable_wifi">WiFi ပိတ်ပါ။</string>
-    <string name="main_button_enable_wifi">WiFi ကိုဖွင့်ပါ။</string>
+    <string name="main_button_disable_wifi">Wi-Fi ပိတ်ပါ</string>
+    <string name="main_button_enable_wifi">Wi-Fi ဖွင့်ပါ</string>
     <string name="main_label_app_description">ဤအက်ပ်သည် သင့်အား WiFi ကိုဖွင့်ရန်နှင့်ပိတ်ရန်ခွင့်ပြုသည်။</string>
     <string name="main_label_compatibility_description">wifi ဖြင့်အလုပ်လုပ်နိုင်စေရန် ၎င်းတွင် တွဲဖက်အသုံးပြုနိုင်သော ဗားရှင်းဟောင်းတစ်ခုပါရှိသည်။</string>
     <string name="main_label_github_description">ကုဒ်ရင်းမြစ်ကို သင်အက်ပ်ကိုဒေါင်းလုဒ်လုပ်သည့် GitHub တွင် ရနိုင်သည်။</string>
-    <string name="main_title_automatic">AutoHotspot ဖြင့် Wi-Fi ကို အလိုအလျောက်</string>
+    <string name="main_title_automatic">AutoHotspot ဖြင့် Wi-Fi ကို အလိုအလျောက် ဖွင့်ပိတ်ခြင်း</string>
     <string name="main_body_automatic">သင်သတ်မှတ်ထားသော စည်းမျဉ်းများ အလုပ်လုပ်သည့်အခါ AutoHotspot သည် Wi-Fi ဖွင့်ရန် သို့မဟုတ် ပိတ်ရန် ဤအကူအက်ပ်သို့ စက်တွင်းတောင်းဆိုချက်များ ပို့ပါသည်။ WiFiControl ကို ထည့်သွင်းထားပါ။ ဤစခရင်ကို ဖွင့်ထားရန် မလိုပါ။</string>
     <string name="main_title_manual">Wi-Fi ကို ကိုယ်တိုင် စမ်းသပ်ရန်</string>
     <string name="main_body_manual">Android က ဤအကူအက်ပ်ကို Wi-Fi ပြောင်းခွင့်ပြုထားခြင်း ရှိမရှိ ဤခလုတ်များဖြင့် စစ်ဆေးပါ။ အလိုအလျောက်ပြောင်းခြင်းကို AutoHotspot တွင် သတ်မှတ်ပါသည်။</string>

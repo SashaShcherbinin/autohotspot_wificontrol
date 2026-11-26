@@ -6,7 +6,7 @@
     <string name="main_label_compatibility_description">Nó chứa một phiên bản tương thích cũ để có thể hoạt động với wifi.</string>
     <string name="main_label_github_description">Nguồn mã có sẵn trên GitHub, nơi bạn tải xuống ứng dụng.</string>
     <string name="main_title_automatic">Wi-Fi tự động với AutoHotspot</string>
-    <string name="main_body_automatic">Khi các quy tắc bạn đã thiết lập chạy, AutoHotspot gửi yêu cầu cục bộ đến ứng dụng trợ giúp này để bật hoặc tắt Wi-Fi. Hãy giữ WiFiControl được cài đặt. Bạn không cần để màn hình này mở.</string>
+    <string name="main_body_automatic">Khi các quy tắc bạn đã thiết lập chạy, AutoHotspot gửi yêu cầu cục bộ đến ứng dụng trợ giúp này để bật hoặc tắt Wi-Fi. Đừng gỡ cài đặt WiFiControl. Bạn không cần để màn hình này mở.</string>
     <string name="main_title_manual">Kiểm tra Wi-Fi thủ công</string>
     <string name="main_body_manual">Dùng các nút này để kiểm tra xem Android có cho phép ứng dụng trợ giúp này chuyển đổi Wi-Fi hay không. Việc chuyển đổi tự động được thiết lập trong AutoHotspot.</string>
     <string name="main_title_compatibility">Tại sao Android hiển thị cảnh báo</string>

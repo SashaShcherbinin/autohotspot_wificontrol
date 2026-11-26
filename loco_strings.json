@@ -22,12 +22,12 @@
     {
         "key": "main_button_disable_wifi",
         "language": "en",
-        "value": "Disable WiFi"
+        "value": "Disable Wi-Fi"
     },
     {
         "key": "main_button_enable_wifi",
         "language": "en",
-        "value": "Enable WiFi"
+        "value": "Enable Wi-Fi"
     },
     {
         "key": "main_button_source",
