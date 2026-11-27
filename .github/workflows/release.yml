@@ -50,7 +50,14 @@ jobs:
         if: startsWith(github.ref, 'refs/tags/')
         env:
           GH_TOKEN: ${{ github.token }}
+        # Release notes are the annotated tag's message (`git tag -a 1.2.0 -m "Short description"`),
+        # so releases carry a short description instead of generated contributor and pull-request lists.
         run: |
+          git fetch --force origin "refs/tags/$GITHUB_REF_NAME:refs/tags/$GITHUB_REF_NAME"
+          NOTES=""
+          if [ "$(git cat-file -t "$GITHUB_REF_NAME")" = "tag" ]; then
+            NOTES="$(git tag -l --format='%(contents)' "$GITHUB_REF_NAME")"
+          fi
           gh release view "$GITHUB_REF_NAME" >/dev/null 2>&1 \
-            || gh release create "$GITHUB_REF_NAME" --title "WiFiControl $GITHUB_REF_NAME" --generate-notes --latest
+            || gh release create "$GITHUB_REF_NAME" --title "WiFiControl $GITHUB_REF_NAME" --notes "$NOTES" --latest
           gh release upload "$GITHUB_REF_NAME" WiFiControl.apk --clobber
