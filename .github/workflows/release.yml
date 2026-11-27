@@ -20,6 +20,10 @@ jobs:
           distribution: temurin
           java-version: 21
 
+      # Caches Gradle dependencies and wrapper between runs: faster builds and no repeated downloads from
+      # Maven Central / Google Maven (a run failed with HTTP 429 from GitHub-hosted Maven traffic).
+      - uses: gradle/actions/setup-gradle@v4
+
       - name: Prepare signing
         env:
           KEYSTORE_BASE64: ${{ secrets.KEYSTORE_BASE64 }}
